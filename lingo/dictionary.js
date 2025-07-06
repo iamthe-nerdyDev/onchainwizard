@@ -1,6 +1,94 @@
 export default {
   version: 0.1,
   files: {
+    "../app/(main)/checklist/page.tsx": {
+      entries: {
+        "1/0/init/body/0/argument": {
+          content: {
+            de: "Checkliste",
+            en: "Checklist",
+            es: "Lista de verificación",
+            fr: "Liste de contrôle",
+          },
+          hash: "7a6e1a720d51bcf1ad196e7b87bb731c",
+        },
+        "4/0/init/body/0/argument": {
+          content: {
+            de: "Checkliste",
+            en: "Checklist",
+            es: "Lista de verificación",
+            fr: "Liste de contrôle",
+          },
+          hash: "7a6e1a720d51bcf1ad196e7b87bb731c",
+        },
+        "4/0/init/body/10/argument": {
+          content: {
+            de: "Checkliste",
+            en: "Checklist",
+            es: "Lista de verificación",
+            fr: "Liste de contrôle",
+          },
+          hash: "7a6e1a720d51bcf1ad196e7b87bb731c",
+        },
+        "4/0/init/body/10/argument/1/1": {
+          content: {
+            de: "Noch ein paar Dinge, um <element:br></element:br> dich zum Start zu bringen",
+            en: "A few more things to <element:br></element:br> Get you started",
+            es: "Algunas cosas más para <element:br></element:br> ayudarte a comenzar",
+            fr: "Encore quelques éléments à <element:br></element:br> vous aider à démarrer",
+          },
+          hash: "e9d4e262aba63cd43228dfa0bc8ade25",
+        },
+        "4/0/init/body/10/argument/1/3/expression/alternate/11/expression/right/3/expression/right/3":
+          {
+            content: {
+              de: "Fortfahren",
+              en: "Continue",
+              es: "Continuar",
+              fr: "Continuer",
+            },
+            hash: "1d11f84dfe637f8ae9088e67e3d00a58",
+          },
+        "4/0/init/body/10/argument/1/3/expression/alternate/11/expression/right/5/expression/right/1":
+          {
+            content: {
+              de: "Meine Wallet erstellen",
+              en: "Create My Wallet",
+              es: "Crear mi cartera",
+              fr: "Créer mon portefeuille",
+            },
+            hash: "97d594ce97aee06bc99095889afd5c3b",
+          },
+        "4/0/init/body/10/argument/1/3/expression/alternate/11/expression/right/5/expression/right/3":
+          {
+            content: {
+              de: "Dies erstellt eine sichere Wallet für deine Web3-Transaktionen",
+              en: "This will create a secure wallet for your web3 transactions",
+              es: "Esto creará una cartera segura para tus transacciones web3",
+              fr: "Cela créera un portefeuille sécurisé pour vos transactions web3",
+            },
+            hash: "3d954494b615c3f6563ac34e117eec43",
+          },
+        "4/0/init/body/10/argument/1/3/expression/consequent/1": {
+          content: {
+            de: "🎉 Alles erledigt! Du bist startklar!",
+            en: "🎉 All set! You're ready to go!",
+            es: "🎉 ¡Todo listo! ¡Estás preparado para comenzar!",
+            fr: "🎉 Tout est prêt ! Vous pouvez commencer !",
+          },
+          hash: "18c8b391f3ac02b86498e481653e9830",
+        },
+        "4/0/init/body/10/argument/1/3/expression/consequent/3": {
+          content: {
+            de: "Du hast alle Einrichtungsschritte abgeschlossen. Willkommen zu deiner Web3-Reise!",
+            en: "You've completed all the setup steps. Welcome to your web3 journey!",
+            es: "Has completado todos los pasos de configuración. ¡Bienvenido a tu viaje web3!",
+            fr: "Vous avez terminé toutes les étapes de configuration. Bienvenue dans votre parcours web3 !",
+          },
+          hash: "e397a60e482fe671f3b4f6dd6635ed98",
+        },
+      },
+    },
     "../app/chat/page.tsx": {
       entries: {
         "2/0/init/body/0/argument": {
@@ -11,6 +99,193 @@ export default {
             fr: "Chat<element:MessageThreadPanel></element:MessageThreadPanel>",
           },
           hash: "28b871236139ca03031d165d91fc3347",
+        },
+      },
+    },
+    "../app/checklist/page.tsx": {
+      entries: {
+        "1/0/init/body/0/argument": {
+          content: {
+            de: "Checkliste",
+            en: "Checklist",
+            es: "Lista de verificación",
+            fr: "Liste de contrôle",
+          },
+          hash: "7a6e1a720d51bcf1ad196e7b87bb731c",
+        },
+        "3/0/init/body/0/argument/1/3/1/1": {
+          content: {
+            de: "Noch ein paar Dinge, um <element:br></element:br> dir den Einstieg zu erleichtern",
+            en: "A few more things to <element:br></element:br> Get you started",
+            es: "Algunas cosas más para <element:br></element:br> ayudarte a comenzar",
+            fr: "Quelques éléments supplémentaires pour <element:br></element:br> vous aider à démarrer",
+          },
+          hash: "1ab74e998d69f3f57e412eba896fe187",
+        },
+        "3/0/init/body/0/argument/3": {
+          content: {
+            de: "Checkliste",
+            en: "Checklist",
+            es: "Lista de verificación",
+            fr: "Liste de contrôle",
+          },
+          hash: "7a6e1a720d51bcf1ad196e7b87bb731c",
+        },
+        "3/0/init/body/0/argument/3/1/1": {
+          content: {
+            de: "Noch ein paar Dinge, um dir den Einstieg zu erleichtern",
+            en: "A few more things to get you started",
+            es: "Algunas cosas más para ayudarte a comenzar",
+            fr: "Quelques éléments supplémentaires pour vous aider à démarrer",
+          },
+          hash: "ad1c35909c53ab6108fd09685cdbd3e9",
+        },
+        "3/0/init/body/1/argument/1/3/1/1": {
+          content: {
+            de: "Noch ein paar Dinge, um <element:br></element:br> dir den Einstieg zu erleichtern",
+            en: "A few more things to <element:br></element:br> Get you started",
+            es: "Algunas cosas más para <element:br></element:br> ayudarte a comenzar",
+            fr: "Quelques éléments supplémentaires pour <element:br></element:br> vous aider à démarrer",
+          },
+          hash: "1ab74e998d69f3f57e412eba896fe187",
+        },
+        "4/0/init/body/2/argument/1/3/1/1": {
+          content: {
+            de: "Noch ein paar Dinge, um <element:br></element:br> dir den Einstieg zu erleichtern",
+            en: "A few more things to <element:br></element:br> Get you started",
+            es: "Algunas cosas más para <element:br></element:br> ayudarte a comenzar",
+            fr: "Quelques éléments supplémentaires pour <element:br></element:br> vous aider à démarrer",
+          },
+          hash: "1ab74e998d69f3f57e412eba896fe187",
+        },
+        "5/0/init/body/3/argument/1/3/1/1": {
+          content: {
+            de: "Noch ein paar Dinge, um <element:br></element:br> dir den Einstieg zu erleichtern",
+            en: "A few more things to <element:br></element:br> Get you started",
+            es: "Algunas cosas más para <element:br></element:br> ayudarte a comenzar",
+            fr: "Quelques éléments supplémentaires pour <element:br></element:br> vous aider à démarrer",
+          },
+          hash: "1ab74e998d69f3f57e412eba896fe187",
+        },
+        "5/0/init/body/4/argument/1/3/1/1": {
+          content: {
+            de: "Noch ein paar Dinge, um <element:br></element:br> dir den Einstieg zu erleichtern",
+            en: "A few more things to <element:br></element:br> Get you started",
+            es: "Algunas cosas más para <element:br></element:br> ayudarte a comenzar",
+            fr: "Quelques éléments supplémentaires pour <element:br></element:br> vous aider à démarrer",
+          },
+          hash: "1ab74e998d69f3f57e412eba896fe187",
+        },
+        "5/0/init/body/5/argument/1/3/1/1": {
+          content: {
+            de: "Noch ein paar Dinge, um <element:br></element:br> dir den Einstieg zu erleichtern",
+            en: "A few more things to <element:br></element:br> Get you started",
+            es: "Algunas cosas más para <element:br></element:br> ayudarte a comenzar",
+            fr: "Quelques éléments supplémentaires pour <element:br></element:br> vous aider à démarrer",
+          },
+          hash: "1ab74e998d69f3f57e412eba896fe187",
+        },
+        "5/0/init/body/6/argument/1/3/1/1": {
+          content: {
+            de: "Noch ein paar Dinge, um <element:br></element:br> dir den Einstieg zu erleichtern",
+            en: "A few more things to <element:br></element:br> Get you started",
+            es: "Algunas cosas más para <element:br></element:br> ayudarte a comenzar",
+            fr: "Quelques éléments supplémentaires pour <element:br></element:br> vous aider à démarrer",
+          },
+          hash: "1ab74e998d69f3f57e412eba896fe187",
+        },
+        "6/0/init/body/10/argument/1/3/1/1": {
+          content: {
+            de: "Noch ein paar Dinge, um <element:br></element:br> dir den Einstieg zu erleichtern",
+            en: "A few more things to <element:br></element:br> Get you started",
+            es: "Algunas cosas más para <element:br></element:br> ayudarte a comenzar",
+            fr: "Quelques éléments supplémentaires pour <element:br></element:br> vous aider à démarrer",
+          },
+          hash: "1ab74e998d69f3f57e412eba896fe187",
+        },
+        "6/0/init/body/10/argument/1/3/1/3/expression/alternate/11/expression/right/3/expression/right/3":
+          {
+            content: {
+              de: "Fortfahren",
+              en: "Continue",
+              es: "Continuar",
+              fr: "Continuer",
+            },
+            hash: "7de3eabc7eacfb30451939f02191f459",
+          },
+        "6/0/init/body/10/argument/1/3/1/3/expression/alternate/11/expression/right/5/expression/right/1":
+          {
+            content: {
+              de: "Mein wallet erstellen",
+              en: "Create My Wallet",
+              es: "Crear mi cartera",
+              fr: "Créer mon portefeuille",
+            },
+            hash: "321e9b6e3f61a6c841512397fcba8a46",
+          },
+        "6/0/init/body/10/argument/1/3/1/3/expression/alternate/11/expression/right/5/expression/right/3":
+          {
+            content: {
+              de: "Dies erstellt ein sicheres wallet für deine web3-transaktionen",
+              en: "This will create a secure wallet for your web3 transactions",
+              es: "Esto creará una cartera segura para tus transacciones web3",
+              fr: "Cela créera un portefeuille sécurisé pour vos transactions web3",
+            },
+            hash: "1c40b84e82aa1661abdaaf3dd939706a",
+          },
+        "6/0/init/body/10/argument/1/3/1/3/expression/consequent/1": {
+          content: {
+            de: "🎉 Alles erledigt! Du bist startklar!",
+            en: "🎉 All set! You're ready to go!",
+            es: "🎉 ¡Todo listo! ¡Estás preparado para comenzar!",
+            fr: "🎉 Tout est prêt ! Vous pouvez commencer !",
+          },
+          hash: "652e43a8def2f9a90d96e2df29429756",
+        },
+        "6/0/init/body/10/argument/1/3/1/3/expression/consequent/3": {
+          content: {
+            de: "Du hast alle einrichtungsschritte abgeschlossen. Willkommen zu deiner web3-reise!",
+            en: "You've completed all the setup steps. Welcome to your web3 journey!",
+            es: "Has completado todos los pasos de configuración. ¡Bienvenido a tu viaje web3!",
+            fr: "Vous avez terminé toutes les étapes de configuration. Bienvenue dans votre parcours web3 !",
+          },
+          hash: "3863aa91545e9827dd7425f75192745f",
+        },
+        "6/0/init/body/6/argument/1/3/1/1": {
+          content: {
+            de: "Noch ein paar Dinge, um <element:br></element:br> dir den Einstieg zu erleichtern",
+            en: "A few more things to <element:br></element:br> Get you started",
+            es: "Algunas cosas más para <element:br></element:br> ayudarte a comenzar",
+            fr: "Quelques éléments supplémentaires pour <element:br></element:br> vous aider à démarrer",
+          },
+          hash: "1ab74e998d69f3f57e412eba896fe187",
+        },
+        "6/0/init/body/7/argument/1/3/1/1": {
+          content: {
+            de: "Noch ein paar Dinge, um <element:br></element:br> dir den Einstieg zu erleichtern",
+            en: "A few more things to <element:br></element:br> Get you started",
+            es: "Algunas cosas más para <element:br></element:br> ayudarte a comenzar",
+            fr: "Quelques éléments supplémentaires pour <element:br></element:br> vous aider à démarrer",
+          },
+          hash: "1ab74e998d69f3f57e412eba896fe187",
+        },
+        "6/0/init/body/8/argument/1/3/1/1": {
+          content: {
+            de: "Noch ein paar Dinge, um <element:br></element:br> dir den Einstieg zu erleichtern",
+            en: "A few more things to <element:br></element:br> Get you started",
+            es: "Algunas cosas más para <element:br></element:br> ayudarte a comenzar",
+            fr: "Quelques éléments supplémentaires pour <element:br></element:br> vous aider à démarrer",
+          },
+          hash: "1ab74e998d69f3f57e412eba896fe187",
+        },
+        "6/0/init/body/9/argument/1/3/1/1": {
+          content: {
+            de: "Noch ein paar Dinge, um <element:br></element:br> dir den Einstieg zu erleichtern",
+            en: "A few more things to <element:br></element:br> Get you started",
+            es: "Algunas cosas más para <element:br></element:br> ayudarte a comenzar",
+            fr: "Quelques éléments supplémentaires pour <element:br></element:br> vous aider à démarrer",
+          },
+          hash: "1ab74e998d69f3f57e412eba896fe187",
         },
       },
     },
@@ -69,6 +344,42 @@ export default {
             fr: "Connexion",
           },
           hash: "f4f219abeb5a465ecb1c7efaf50246de",
+        },
+        "3/declaration/body/0/argument/1/1/1/1": {
+          content: {
+            de: "OnchainWizard",
+            en: "OnchainWizard",
+            es: "OnchainWizard",
+            fr: "OnchainWizard",
+          },
+          hash: "c8f6c5df051a06c280f3a6bfefebf0f2",
+        },
+        "3/declaration/body/0/argument/3/1-alt": {
+          content: {
+            de: "Bild",
+            en: "Image",
+            es: "Imagen",
+            fr: "Image",
+          },
+          hash: "048ba7a239de0fbd883ade8558415830",
+        },
+        "4/declaration/body/0/argument/1/1/1/1": {
+          content: {
+            de: "OnchainWizard",
+            en: "OnchainWizard",
+            es: "OnchainWizard",
+            fr: "OnchainWizard",
+          },
+          hash: "c8f6c5df051a06c280f3a6bfefebf0f2",
+        },
+        "4/declaration/body/0/argument/3/1-alt": {
+          content: {
+            de: "Bild",
+            en: "Image",
+            es: "Imagen",
+            fr: "Image",
+          },
+          hash: "048ba7a239de0fbd883ade8558415830",
         },
         "5/0/init/body/0/argument": {
           content: {
@@ -318,6 +629,86 @@ export default {
         },
       },
     },
+    "../components/CustomLocaleSwitcher/index.tsx": {
+      entries: {
+        "2/0/init/body/0/argument": {
+          content: {
+            de: "index",
+            en: "index",
+            es: "índice",
+            fr: "index",
+          },
+          hash: "709e2fb353ca131e041ad3a918b752cd",
+        },
+      },
+    },
+    "../components/CustomSessionProvider/index.tsx": {
+      entries: {
+        "2/0/init/body/0/argument/1/1": {
+          content: {
+            de: "l",
+            en: "l",
+            es: "l",
+            fr: "c",
+          },
+          hash: "497e91bb0f0375e4d0b78753e827b538",
+        },
+        "2/0/init/body/0/argument/1/11": {
+          content: {
+            de: "n",
+            en: "n",
+            es: "n",
+            fr: "n",
+          },
+          hash: "bd1ecb2276bd6f8df0af5280d4a3634f",
+        },
+        "2/0/init/body/0/argument/1/13": {
+          content: {
+            de: "g",
+            en: "g",
+            es: "g",
+            fr: "t",
+          },
+          hash: "596a978c9a93f9442a567d400add223b",
+        },
+        "2/0/init/body/0/argument/1/3": {
+          content: {
+            de: "o",
+            en: "o",
+            es: "o",
+            fr: "a",
+          },
+          hash: "8e195ddd6eabcdbe93c6c332fa9c5282",
+        },
+        "2/0/init/body/0/argument/1/5": {
+          content: {
+            de: "a",
+            en: "a",
+            es: "a",
+            fr: "r",
+          },
+          hash: "f6f8f42383dee35ee674f7f081e67ec8",
+        },
+        "2/0/init/body/0/argument/1/7": {
+          content: {
+            de: "d",
+            en: "d",
+            es: "d",
+            fr: "g",
+          },
+          hash: "fe9efa39a6fd9f10358f43f00e0ab82b",
+        },
+        "2/0/init/body/0/argument/1/9": {
+          content: {
+            de: "i",
+            en: "i",
+            es: "i",
+            fr: "e",
+          },
+          hash: "b96692323d61bb1d839c1e5b114faa6d",
+        },
+      },
+    },
     "../components/Features/index.tsx": {
       entries: {
         "10/0/init/1/6/value/1/expression/0/body/1/3/1/3": {
@@ -350,6 +741,15 @@ export default {
             fr: "Pied de page",
           },
           hash: "42e6d40460f979cecee52dabcff307f8",
+        },
+        "4/0/init/body/0/argument/1/1": {
+          content: {
+            de: "© <function:Date.getFullYear/>",
+            en: "© <function:Date.getFullYear/>",
+            es: "© <function:Date.getFullYear/>",
+            fr: "© <function:Date.getFullYear/>",
+          },
+          hash: "36f840240ac0f5ee444ab25d70be3ad2",
         },
         "4/0/init/body/0/argument/1/1/1": {
           content: {
@@ -469,12 +869,21 @@ export default {
         },
         "5/0/init/body/0/argument/1/1/3/3/1": {
           content: {
-            de: "Anmelden",
-            en: "Login",
-            es: "Iniciar sesión",
-            fr: "Connexion",
+            de: "Jetzt starten",
+            en: "Get Started",
+            es: "Comenzar",
+            fr: "Commencer",
           },
-          hash: "f4f219abeb5a465ecb1c7efaf50246de",
+          hash: "1d5f030c4ec9c869e647ae060518b948",
+        },
+        "5/0/init/body/0/argument/1/1/3/5/1": {
+          content: {
+            de: "Jetzt starten",
+            en: "Get Started",
+            es: "Comenzar",
+            fr: "Commencer",
+          },
+          hash: "1d5f030c4ec9c869e647ae060518b948",
         },
       },
     },
@@ -491,8 +900,201 @@ export default {
         },
       },
     },
+    "../components/email/LoginOTP/index.tsx": {
+      entries: {
+        "2/0/init/body/0/argument/1": {
+          content: {
+            de: "Ihre E-Mail-Adresse <element:b>{email}</element:b> wurde verwendet, um eine Anmeldeanfrage bei <element:b>OnchainWizard</element:b> zu starten. Verwenden Sie den unten stehenden OTP, um fortzufahren",
+            en: "Your email address <element:b>{email}</element:b> was used to initiate a log in request on <element:b>OnchainWizard</element:b>, use to OTP below to continue",
+            es: "Tu dirección de correo electrónico <element:b>{email}</element:b> fue utilizada para iniciar una solicitud de inicio de sesión en <element:b>OnchainWizard</element:b>, usa el OTP a continuación para continuar",
+            fr: "Votre adresse e-mail <element:b>{email}</element:b> a été utilisée pour initier une demande de connexion sur <element:b>OnchainWizard</element:b>, utilisez l'OTP ci-dessous pour continuer",
+          },
+          hash: "8cc3182c75c4493b968b24739e6d2528",
+        },
+        "2/declaration/body/0/argument/1": {
+          content: {
+            de: "Ihre E-Mail-Adresse <element:b>{email}</element:b> wurde verwendet, um eine Anmeldeanfrage bei <element:b>OnchainWizard</element:b> zu starten. Verwenden Sie den unten stehenden OTP, um fortzufahren",
+            en: "Your email address <element:b>{email}</element:b> was used to initiate a log in request on <element:b>OnchainWizard</element:b>, use to OTP below to continue",
+            es: "Tu dirección de correo electrónico <element:b>{email}</element:b> fue utilizada para iniciar una solicitud de inicio de sesión en <element:b>OnchainWizard</element:b>, usa el OTP a continuación para continuar",
+            fr: "Votre adresse e-mail <element:b>{email}</element:b> a été utilisée pour initier une demande de connexion sur <element:b>OnchainWizard</element:b>, utilisez l'OTP ci-dessous pour continuer",
+          },
+          hash: "8cc3182c75c4493b968b24739e6d2528",
+        },
+      },
+    },
     "../components/login-form.tsx": {
       entries: {
+        "10/declaration/body/2/argument/1/1": {
+          content: {
+            de: "Anmelden",
+            en: "Log in",
+            es: "Iniciar sesión",
+            fr: "Se connecter",
+          },
+          hash: "9fb886eff8d1d67d8bb79f5c3f78edde",
+        },
+        "10/declaration/body/2/argument/1/3": {
+          content: {
+            de: "Starten Sie mit einem Magic-Link",
+            en: "Get started with a magic link",
+            es: "Comienza con un enlace mágico",
+            fr: "Commencer avec un lien magique",
+          },
+          hash: "dd0d1fb8ee2999acc0363193337071a5",
+        },
+        "10/declaration/body/2/argument/3/1/1-placeholder": {
+          content: {
+            de: "m@example.com",
+            en: "m@example.com",
+            es: "m@example.com",
+            fr: "m@example.com",
+          },
+          hash: "a1d5a06a89e9a1c3560b2f74503c3f35",
+        },
+        "10/declaration/body/2/argument/3/3": {
+          content: {
+            de: "Login-Link erhalten",
+            en: "Get Login Link",
+            es: "Obtener enlace de acceso",
+            fr: "Obtenir le lien de connexion",
+          },
+          hash: "9d10438becfdcd89f7f97eaa08242e61",
+        },
+        "10/declaration/body/3/argument/1/1": {
+          content: {
+            de: "Anmelden",
+            en: "Log in",
+            es: "Iniciar sesión",
+            fr: "Se connecter",
+          },
+          hash: "9fb886eff8d1d67d8bb79f5c3f78edde",
+        },
+        "10/declaration/body/3/argument/1/3": {
+          content: {
+            de: "Starten Sie mit einem Magic-Link",
+            en: "Get started with a magic link",
+            es: "Comienza con un enlace mágico",
+            fr: "Commencer avec un lien magique",
+          },
+          hash: "dd0d1fb8ee2999acc0363193337071a5",
+        },
+        "10/declaration/body/3/argument/3/1/1-placeholder": {
+          content: {
+            de: "m@example.com",
+            en: "m@example.com",
+            es: "m@example.com",
+            fr: "m@example.com",
+          },
+          hash: "a1d5a06a89e9a1c3560b2f74503c3f35",
+        },
+        "10/declaration/body/3/argument/3/3": {
+          content: {
+            de: "Login-Link erhalten",
+            en: "Get Login Link",
+            es: "Obtener enlace de acceso",
+            fr: "Obtenir le lien de connexion",
+          },
+          hash: "9d10438becfdcd89f7f97eaa08242e61",
+        },
+        "10/declaration/body/9/argument/alternate/1/1": {
+          content: {
+            de: "OTP bestätigen",
+            en: "Confirm OTP",
+            es: "Confirmar OTP",
+            fr: "Confirmer l'OTP",
+          },
+          hash: "14707e0f0201c6a91687556bfba6547f",
+        },
+        "10/declaration/body/9/argument/alternate/1/3": {
+          content: {
+            de: "Geben Sie den {numInputs}-stelligen Code ein, der an Ihre E-Mail-Adresse gesendet wurde",
+            en: "Enter the {numInputs} digit code sent to your email address",
+            es: "Introduce el código de {numInputs} dígitos enviado a tu dirección de correo electrónico",
+            fr: "Saisissez le code à {numInputs} chiffres envoyé à votre adresse e-mail",
+          },
+          hash: "8354dc2fc6f68228411f395d1a1ea2b2",
+        },
+        "10/declaration/body/9/argument/alternate/5/1/expression/consequent": {
+          content: {
+            de: "Nicht erhalten? <element:button>Erneut versuchen</element:button>",
+            en: "Not received? <element:button>Try again</element:button>",
+            es: "¿No recibido? <element:button>Intentar de nuevo</element:button>",
+            fr: "Pas reçu ? <element:button>Réessayer</element:button>",
+          },
+          hash: "64f0f1e8a05b69116b31428ee0d902d7",
+        },
+        "10/declaration/body/9/argument/alternate/7": {
+          content: {
+            de: "Verifizieren",
+            en: "Verify",
+            es: "Verificar",
+            fr: "Vérifier",
+          },
+          hash: "2f07f41c8ee5b0ec458ec640a453f097",
+        },
+        "10/declaration/body/9/argument/consequent/1/1": {
+          content: {
+            de: "Anmelden",
+            en: "Log in",
+            es: "Iniciar sesión",
+            fr: "Se connecter",
+          },
+          hash: "9fb886eff8d1d67d8bb79f5c3f78edde",
+        },
+        "10/declaration/body/9/argument/consequent/1/3": {
+          content: {
+            de: "Geben Sie Ihre E-Mail-Adresse ein, um Ihr Login-OTP zu erhalten",
+            en: "Provide your email to get your login OTP",
+            es: "Proporciona tu correo electrónico para obtener tu OTP de inicio de sesión",
+            fr: "Fournissez votre email pour recevoir votre OTP de connexion",
+          },
+          hash: "535ed73c1e21f06bc554b0772c7958c8",
+        },
+        "10/declaration/body/9/argument/consequent/3/1/1-placeholder": {
+          content: {
+            de: "benutzer@domain.de",
+            en: "user@domain.ltd",
+            es: "usuario@dominio.ltd",
+            fr: "utilisateur@domaine.fr",
+          },
+          hash: "54a116b426acece5a75f54ec3d92905a",
+        },
+        "10/declaration/body/9/argument/consequent/3/3": {
+          content: {
+            de: "Fortfahren",
+            en: "Contiue",
+            es: "Continuar",
+            fr: "Continuer",
+          },
+          hash: "6cc30bfd6890c982243ae58dd764ac0c",
+        },
+        "11/declaration/body/3/argument/1/1": {
+          content: {
+            de: "Anmelden",
+            en: "Log in",
+            es: "Iniciar sesión",
+            fr: "Se connecter",
+          },
+          hash: "9fb886eff8d1d67d8bb79f5c3f78edde",
+        },
+        "11/declaration/body/3/argument/1/3": {
+          content: {
+            de: "Starten Sie mit einem Magic-Link",
+            en: "Get started with a magic link",
+            es: "Comienza con un enlace mágico",
+            fr: "Commencer avec un lien magique",
+          },
+          hash: "dd0d1fb8ee2999acc0363193337071a5",
+        },
+        "11/declaration/body/3/argument/3/1/1-placeholder": {
+          content: {
+            de: "m@example.com",
+            en: "m@example.com",
+            es: "m@example.com",
+            fr: "m@example.com",
+          },
+          hash: "a1d5a06a89e9a1c3560b2f74503c3f35",
+        },
         "4/declaration/body/0/argument/1/1": {
           content: {
             de: "Anmelden",
@@ -519,6 +1121,15 @@ export default {
             fr: "Email",
           },
           hash: "e7f34943a0c2fb849db1839ff6ef5cb5",
+        },
+        "4/declaration/body/0/argument/3/1/1-placeholder": {
+          content: {
+            de: "m@example.com",
+            en: "m@example.com",
+            es: "m@example.com",
+            fr: "m@example.com",
+          },
+          hash: "a1d5a06a89e9a1c3560b2f74503c3f35",
         },
         "4/declaration/body/0/argument/3/1/3-placeholder": {
           content: {
@@ -591,6 +1202,150 @@ export default {
             fr: "Vous n'avez pas de compte ? <element:a>S'inscrire</element:a>",
           },
           hash: "1abfbb03164fbff090715452ec07a6cb",
+        },
+        "4/declaration/body/1/argument/1/1": {
+          content: {
+            de: "Anmelden",
+            en: "Log in",
+            es: "Iniciar sesión",
+            fr: "Se connecter",
+          },
+          hash: "9fb886eff8d1d67d8bb79f5c3f78edde",
+        },
+        "4/declaration/body/1/argument/1/3": {
+          content: {
+            de: "Starten Sie mit einem Magic-Link",
+            en: "Get started with a magic link",
+            es: "Comienza con un enlace mágico",
+            fr: "Commencer avec un lien magique",
+          },
+          hash: "dd0d1fb8ee2999acc0363193337071a5",
+        },
+        "4/declaration/body/1/argument/3/1/1-placeholder": {
+          content: {
+            de: "m@example.com",
+            en: "m@example.com",
+            es: "m@example.com",
+            fr: "m@example.com",
+          },
+          hash: "a1d5a06a89e9a1c3560b2f74503c3f35",
+        },
+        "4/declaration/body/1/argument/3/3": {
+          content: {
+            de: "Login-Link erhalten",
+            en: "Get Login Link",
+            es: "Obtener enlace de acceso",
+            fr: "Obtenir le lien de connexion",
+          },
+          hash: "9d10438becfdcd89f7f97eaa08242e61",
+        },
+        "9/declaration/body/1/argument/1/1": {
+          content: {
+            de: "Anmelden",
+            en: "Log in",
+            es: "Iniciar sesión",
+            fr: "Se connecter",
+          },
+          hash: "9fb886eff8d1d67d8bb79f5c3f78edde",
+        },
+        "9/declaration/body/1/argument/1/3": {
+          content: {
+            de: "Starten Sie mit einem Magic-Link",
+            en: "Get started with a magic link",
+            es: "Comienza con un enlace mágico",
+            fr: "Commencer avec un lien magique",
+          },
+          hash: "dd0d1fb8ee2999acc0363193337071a5",
+        },
+        "9/declaration/body/1/argument/3/1/1-placeholder": {
+          content: {
+            de: "m@example.com",
+            en: "m@example.com",
+            es: "m@example.com",
+            fr: "m@example.com",
+          },
+          hash: "a1d5a06a89e9a1c3560b2f74503c3f35",
+        },
+        "9/declaration/body/1/argument/3/3": {
+          content: {
+            de: "Login-Link erhalten",
+            en: "Get Login Link",
+            es: "Obtener enlace de acceso",
+            fr: "Obtenir le lien de connexion",
+          },
+          hash: "9d10438becfdcd89f7f97eaa08242e61",
+        },
+        "9/declaration/body/9/argument/alternate/1/1": {
+          content: {
+            de: "OTP bestätigen",
+            en: "Confirm OTP",
+            es: "Confirmar OTP",
+            fr: "Confirmer l'OTP",
+          },
+          hash: "14707e0f0201c6a91687556bfba6547f",
+        },
+        "9/declaration/body/9/argument/alternate/1/3": {
+          content: {
+            de: "Geben Sie den {numInputs}-stelligen Code ein, der an Ihre E-Mail-Adresse gesendet wurde",
+            en: "Enter the {numInputs} digit code sent to your email address",
+            es: "Introduce el código de {numInputs} dígitos enviado a tu dirección de correo electrónico",
+            fr: "Saisissez le code à {numInputs} chiffres envoyé à votre adresse e-mail",
+          },
+          hash: "8354dc2fc6f68228411f395d1a1ea2b2",
+        },
+        "9/declaration/body/9/argument/alternate/5/1/expression/consequent": {
+          content: {
+            de: "Nicht erhalten? <element:button>Erneut versuchen</element:button>",
+            en: "Not received? <element:button>Try again</element:button>",
+            es: "¿No recibido? <element:button>Intentar de nuevo</element:button>",
+            fr: "Pas reçu ? <element:button>Réessayer</element:button>",
+          },
+          hash: "64f0f1e8a05b69116b31428ee0d902d7",
+        },
+        "9/declaration/body/9/argument/alternate/7": {
+          content: {
+            de: "Verifizieren",
+            en: "Verify",
+            es: "Verificar",
+            fr: "Vérifier",
+          },
+          hash: "2f07f41c8ee5b0ec458ec640a453f097",
+        },
+        "9/declaration/body/9/argument/consequent/1/1": {
+          content: {
+            de: "Anmelden",
+            en: "Log in",
+            es: "Iniciar sesión",
+            fr: "Se connecter",
+          },
+          hash: "9fb886eff8d1d67d8bb79f5c3f78edde",
+        },
+        "9/declaration/body/9/argument/consequent/1/3": {
+          content: {
+            de: "Geben Sie Ihre E-Mail-Adresse ein, um Ihr Login-OTP zu erhalten",
+            en: "Provide your email to get your login OTP",
+            es: "Proporciona tu correo electrónico para obtener tu OTP de inicio de sesión",
+            fr: "Fournissez votre email pour recevoir votre OTP de connexion",
+          },
+          hash: "535ed73c1e21f06bc554b0772c7958c8",
+        },
+        "9/declaration/body/9/argument/consequent/3/1/1-placeholder": {
+          content: {
+            de: "benutzer@domain.de",
+            en: "user@domain.ltd",
+            es: "usuario@dominio.ltd",
+            fr: "utilisateur@domaine.fr",
+          },
+          hash: "54a116b426acece5a75f54ec3d92905a",
+        },
+        "9/declaration/body/9/argument/consequent/3/3": {
+          content: {
+            de: "Fortfahren",
+            en: "Contiue",
+            es: "Continuar",
+            fr: "Continuer",
+          },
+          hash: "6cc30bfd6890c982243ae58dd764ac0c",
         },
       },
     },

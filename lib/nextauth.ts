@@ -4,7 +4,6 @@ import CredentialsProvider from "next-auth/providers/credentials";
 import { generateOTP, getExpiryDate } from "./utils";
 import resend from "./adapters/resend";
 import prisma from "./adapters/prisma";
-import { LoginOTP } from "@/components/email";
 
 export const authOptions: AuthOptions = {
   session: {
@@ -60,7 +59,16 @@ export const authOptions: AuthOptions = {
             from: "OnchainWizard <onboarding@resend.dev>",
             to: email,
             subject: "Login to OnchainWizard",
-            react: LoginOTP({ email, otp }),
+            html: `
+                <div>
+                    <p>
+                      Your email address <b>${email}</b> was used to initiate a log in request
+                      on <b>OnchainWizard</b>, use to OTP below to continue
+                    </p>
+                    <br />
+                    <h1>${otp}</h1>
+                </div>
+              `,
           });
 
           await prisma.oTP.create({

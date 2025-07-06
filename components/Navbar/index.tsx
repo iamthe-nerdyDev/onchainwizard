@@ -2,7 +2,7 @@ import { WandIcon } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 import { Button } from "../ui/button";
-import { LocaleSwitcher } from "lingo.dev/react/client";
+import CustomLocaleSwitcher from "../CustomLocaleSwitcher";
 
 const NavBar = () => {
   return (
@@ -14,10 +14,16 @@ const NavBar = () => {
             <WandIcon className="stoke-[1.5]" />
           </Link>
 
-          <div className="flex items-center gap-4">
-            <LocaleSwitcher locales={["en", "es", "fr", "de"]} />
-            <Button asChild size={"default"} variant={"outline"}>
-              <a href="/login">Login</a>
+          <div className="flex items-center gap-3">
+            <CustomLocaleSwitcher />
+            <span className="w-[1px] h-7 bg-gray-400" />
+            <Button
+              asChild
+              size={"default"}
+              variant={"default"}
+              className="bg-black text-white hover:bg-gray-800"
+            >
+              <Link href="/login">Get Started</Link>
             </Button>
           </div>
         </div>

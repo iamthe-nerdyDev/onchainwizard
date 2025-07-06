@@ -3,72 +3,98 @@
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import React, { useState } from "react";
-import { z } from "zod";
-import { useForm } from "react-hook-form";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { authClient } from "@/lib/auth-client";
+import React, { useEffect, useState } from "react";
 import toast from "react-hot-toast";
-
-const SignInSchema = z.object({
-  email: z.string().min(1, "Email is required").email("Must be a valid email"),
-});
+import { useRouter } from "next/navigation";
+import { signIn } from "next-auth/react";
+import OtpInput from "react-otp-input";
+import useForm from "@/hooks/useForm";
 
 export function LoginForm({
   className,
   ...props
 }: React.ComponentProps<"form">) {
-  const [loading, setLoading] = useState(false);
-
-  const form = useForm<z.infer<typeof SignInSchema>>({
-    resolver: zodResolver(SignInSchema),
-    defaultValues: { email: "" },
+  const numInputs = 5;
+  const router = useRouter();
+  const [ttl, setTTL] = useState<number | null>(null);
+  const [timer, setTimer] = useState<number>(60);
+  const { isLoading, onChange, values, setValues, onSubmit } = useForm(fn, {
+    step: "email",
+    email: "",
+    otp: "",
   });
 
-  const onSubmit = async (values: z.infer<typeof SignInSchema>) => {
-    if (loading) return;
+  useEffect(() => {
+    if (!ttl) return;
 
-    const toastId = toast.loading("Sending magic link...");
-    await fetch("/api/user", {
-      method: "POST",
-      body: JSON.stringify({ email: values.email }),
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json",
-      },
+    const interval = setInterval(() => {
+      const now = new Date().getTime();
+      const distance = ttl - now;
+
+      if (distance < 0) {
+        setTimer(0);
+        clearInterval(interval);
+      } else {
+        setTimer(Math.floor((distance % (1000 * 60)) / 1000));
+      }
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, [ttl]);
+
+  async function login() {
+    const { email, otp } = values;
+
+    const response = await signIn("otp-login", {
+      email,
+      otp,
+      step: "otp",
+      redirect: false,
     });
 
-    await authClient.signIn.magicLink(
-      { email: values.email, callbackURL: "/checklist" },
-      {
-        onRequest: () => setLoading(true),
-        onResponse: () => setLoading(false),
-        onSuccess: () => {
-          toast.success("A magic link has been sent to your email.", {
-            id: toastId,
-          });
+    if (response?.ok) {
+      router.push("/checklist");
+    } else {
+      toast.error(response?.error || "Could not complete request!");
+    }
+  }
 
-          form.reset();
-        },
-        onError: (ctx) => {
-          toast.error(ctx.error.message || "Failed to send magic link.", {
-            id: toastId,
-          });
-        },
+  async function fn() {
+    const { step, email } = values;
+
+    if (step === "email") {
+      const response = await signIn("otp-login", {
+        email,
+        step: "email",
+        redirect: false,
+      });
+
+      if (response?.error === "CredentialsSignin") {
+        setTTL(Date.now() + 60 * 1000);
+        return setValues({ ...values, step: "otp" });
       }
-    );
-  };
 
-  return (
+      toast.error("Could not send email");
+      return;
+    }
+
+    await login();
+  }
+
+  const goBack = () => setValues({ ...values, step: "email", otp: "" });
+
+  return values.step == "email" ? (
     <form
-      onSubmit={form.handleSubmit(onSubmit)}
+      action="#"
+      method="post"
+      onSubmit={onSubmit}
       className={cn("flex flex-col gap-6", className)}
       {...props}
     >
       <div className="flex flex-col items-center gap-1.5 text-center">
         <h1 className="text-2xl font-bold">Log in</h1>
         <p className="text-sm text-gray-500 text-balance">
-          Get started with a magic link
+          Provide your email to get your login OTP
         </p>
       </div>
 
@@ -77,16 +103,12 @@ export function LoginForm({
           <Input
             id="email"
             type="email"
-            placeholder="m@example.com"
-            {...form.register("email")}
-            className={form.formState.errors.email ? "border-red-500" : ""}
+            value={values.email}
+            onChange={onChange}
+            name="email"
+            placeholder="user@domain.ltd"
+            required
           />
-
-          {form.formState.errors.email && (
-            <p className="text-sm text-red-500 mt-1">
-              {form.formState.errors.email.message}
-            </p>
-          )}
         </div>
 
         <Button
@@ -94,11 +116,65 @@ export function LoginForm({
           size={"lg"}
           type="submit"
           className="w-full bg-black text-white hover:bg-gray-600"
-          disabled={loading}
+          disabled={isLoading}
         >
-          {loading ? "Sending..." : "Get Login Link"}
+          Contiue
         </Button>
       </div>
+    </form>
+  ) : (
+    <form
+      action="#"
+      method="post"
+      onSubmit={onSubmit}
+      className={cn("flex flex-col gap-6", className)}
+      {...props}
+    >
+      <div className="flex flex-col items-center gap-1.5 text-center">
+        <h1 className="text-2xl font-bold">Confirm OTP</h1>
+        <p className="text-sm text-gray-500 text-balance">
+          Enter the {numInputs} digit code sent to your email address
+        </p>
+      </div>
+
+      <OtpInput
+        value={values.otp}
+        onChange={(otp) => setValues({ ...values, otp })}
+        numInputs={numInputs}
+        containerStyle="flex gap-2.5 my-4 items-center justify-center"
+        inputStyle="w-[40px] h-[40px] flex items-center justify-center border border-gray-300 transition-all bg-white rounded-md appearance-none no-spinner text-center outline-none focus:border-black"
+        inputType="text"
+        skipDefaultStyles
+        shouldAutoFocus
+        renderInput={(props) => <input {...props} required />}
+      />
+
+      <p className="font-open-sans text-gray-500 mb-5 text-center">
+        {timer == 0 ? (
+          <>
+            Not received?{" "}
+            <button
+              type="button"
+              onClick={goBack}
+              className="text-blue-600 font-medium"
+            >
+              Try again
+            </button>
+          </>
+        ) : (
+          `New verification code sent - ${timer}s`
+        )}
+      </p>
+
+      <Button
+        variant={"secondary"}
+        size={"lg"}
+        type="submit"
+        className="w-full bg-black text-white hover:bg-gray-600"
+        disabled={isLoading}
+      >
+        Verify
+      </Button>
     </form>
   );
 }
