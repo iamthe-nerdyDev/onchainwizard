@@ -193,6 +193,28 @@ export default {
         },
       },
     },
+    "../components/CTA/index.tsx": {
+      entries: {
+        "2/0/init/body/0/argument/1": {
+          content: {
+            de: "Lassen Sie uns die Art und Weise verändern, wie Sie Ihre Onchain-Analyse durchführen.",
+            en: "Let us change the way you do your onchain analysis.",
+            es: "Cambiemos la forma en que realizas tu análisis en cadena.",
+            fr: "Changeons votre façon de faire vos analyses onchain.",
+          },
+          hash: "c6946970de3ecfc2bdc6213014d30a17",
+        },
+        "2/0/init/body/0/argument/3": {
+          content: {
+            de: "Erleben Sie die Einfachheit, die mit der Nutzung von OnchainWizard einhergeht",
+            en: "Come experience the ease that comes with using OnchainWizard",
+            es: "Ven a experimentar la facilidad que conlleva usar OnchainWizard",
+            fr: "Venez découvrir la simplicité qui accompagne l'utilisation d'OnchainWizard",
+          },
+          hash: "e2529405df254bccd647b665ef07a599",
+        },
+      },
+    },
     "../components/Features/index.tsx": {
       entries: {
         "10/0/init/1/6/value/1/expression/0/body/1/3/1/3": {
@@ -215,6 +237,117 @@ export default {
         },
       },
     },
+    "../components/Footer/index.tsx": {
+      entries: {
+        "1/0/init/body/0/argument": {
+          content: {
+            de: "Fußzeile",
+            en: "Footer",
+            es: "Pie de página",
+            fr: "Pied de page",
+          },
+          hash: "42e6d40460f979cecee52dabcff307f8",
+        },
+        "4/0/init/body/0/argument/1/1/1": {
+          content: {
+            de: "OnchainWizard",
+            en: "OnchainWizard",
+            es: "OnchainWizard",
+            fr: "OnchainWizard",
+          },
+          hash: "a27078f824adbcc0bec4fed60463ce98",
+        },
+        "5/0/init/body/0/argument/1/1/1": {
+          content: {
+            de: "OnchainWizard",
+            en: "OnchainWizard",
+            es: "OnchainWizard",
+            fr: "OnchainWizard",
+          },
+          hash: "a27078f824adbcc0bec4fed60463ce98",
+        },
+      },
+    },
+    "../components/Hero/index.tsx": {
+      entries: {
+        "1/0/init/body/0/argument": {
+          content: {
+            de: "Hero",
+            en: "Hero",
+            es: "Héroe",
+            fr: "Héros",
+          },
+          hash: "618410b62fc2b919f8147a472c3b1763",
+        },
+        "3/0/init/body/0/argument": {
+          content: {
+            de: "Hero",
+            en: "Hero",
+            es: "Héroe",
+            fr: "Héros",
+          },
+          hash: "618410b62fc2b919f8147a472c3b1763",
+        },
+        "4/0/init/body/0/argument/1/1/1/1": {
+          content: {
+            de: "✨ Wir präsentieren<element:span>OnchainWizard</element:span>",
+            en: "✨ Introducing<element:span>OnchainWizard</element:span>",
+            es: "✨ Presentamos<element:span>OnchainWizard</element:span>",
+            fr: "✨ Présentation de<element:span>OnchainWizard</element:span>",
+          },
+          hash: "7bec42949d6d910c932b5f0394786c10",
+        },
+        "5/0/init/body/0/argument/1/1/1/1": {
+          content: {
+            de: "✨ Wir stellen vor: OnchainWizard",
+            en: "✨ Introducing OnchainWizard",
+            es: "✨ Presentamos OnchainWizard",
+            fr: "✨ Découvrez OnchainWizard",
+          },
+          hash: "78303b470bf499a7d1c70011fb908a22",
+        },
+        "5/0/init/body/0/argument/3": {
+          content: {
+            de: "<element:div><element:AuroraText>Personalisierte</element:AuroraText></element:div> Onchain-Erfahrung",
+            en: "<element:div><element:AuroraText>Personalized</element:AuroraText></element:div> Onchain Experience",
+            es: "<element:div><element:AuroraText>Personalizada</element:AuroraText></element:div> Experiencia en cadena",
+            fr: "<element:div><element:AuroraText>Personnalisée</element:AuroraText></element:div> Expérience onchain",
+          },
+          hash: "ab10bff36b57c1a3fc97e29b202c39fb",
+        },
+      },
+    },
+    "../components/Navbar/index.tsx": {
+      entries: {
+        "1/0/init/body/0/argument": {
+          content: {
+            de: "NavBar",
+            en: "NavBar",
+            es: "Barra de navegación",
+            fr: "Barre de navigation",
+          },
+          hash: "df1485461af59dbb565a821e07de824f",
+        },
+        "4/0/init/body/0/argument/1/1/1/1": {
+          content: {
+            de: "OnchainWizard",
+            en: "OnchainWizard",
+            es: "OnchainWizard",
+            fr: "OnchainWizard",
+          },
+          hash: "a27078f824adbcc0bec4fed60463ce98",
+        },
+        "4/0/init/body/0/argument/1/1/3/1/1": {
+          content: {
+            de: "Anmelden",
+            en: "Login",
+            es: "Iniciar sesión",
+            fr: "Connexion",
+          },
+          hash: "f4f219abeb5a465ecb1c7efaf50246de",
+        },
+      },
+    },
     "../components/email/LoginEmail/index.tsx": {
       entries: {
         "2/0/init/body/0/argument/1": {
@@ -225,6 +358,19 @@ export default {
             fr: "Votre adresse e-mail <element:b>{email}</element:b> a été utilisée pour initier une demande de connexion sur <element:b>OnchainWizard</element:b>, suivez le lien ci-dessous pour continuer.",
           },
           hash: "f3dc6470e27ba443def088e9c8a5779a",
+        },
+      },
+    },
+    "../components/magicui/text-reveal.tsx": {
+      entries: {
+        "4/declaration/0/init/body/4/argument/1/3": {
+          content: {
+            de: "Jetzt starten",
+            en: "Get Started",
+            es: "Comenzar",
+            fr: "Commencer",
+          },
+          hash: "1d5f030c4ec9c869e647ae060518b948",
         },
       },
     },
