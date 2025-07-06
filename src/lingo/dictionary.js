@@ -1,0 +1,376 @@
+export default {
+  version: 0.1,
+  files: {
+    "../app/chat/page.tsx": {
+      entries: {
+        "2/0/init/body/0/argument": {
+          content: {
+            de: "Chat<element:MessageThreadPanel></element:MessageThreadPanel>",
+            en: "Chat<element:MessageThreadPanel></element:MessageThreadPanel>",
+            es: "Chat<element:MessageThreadPanel></element:MessageThreadPanel>",
+            fr: "Chat<element:MessageThreadPanel></element:MessageThreadPanel>",
+          },
+          hash: "28b871236139ca03031d165d91fc3347",
+        },
+      },
+    },
+    "../app/page.tsx": {
+      entries: {
+        "1/declaration/body/0/argument/1/1-alt": {
+          content: {
+            de: "Next.js-Logo",
+            en: "Next.js logo",
+            es: "Logo de Next.js",
+            fr: "Logo Next.js",
+          },
+          hash: "d466a5d83229413a6a5a6733490b8e92",
+        },
+        "1/declaration/body/0/argument/1/3/1": {
+          content: {
+            de: "Beginnen Sie mit der Bearbeitung von <element:code>app/page.tsx</element:code> .",
+            en: "Get started by editing <element:code>app/page.tsx</element:code> .",
+            es: "Comienza editando <element:code>app/page.tsx</element:code> .",
+            fr: "Commencez par modifier <element:code>app/page.tsx</element:code> .",
+          },
+          hash: "4b6f703a91c1da3ea27d7cd4f81eed00",
+        },
+        "1/declaration/body/0/argument/1/3/3": {
+          content: {
+            de: "Speichern Sie und sehen Sie Ihre Änderungen sofort.",
+            en: "Save and see your changes instantly.",
+            es: "Guarda y ve tus cambios instantáneamente.",
+            fr: "Enregistrez et voyez vos modifications instantanément.",
+          },
+          hash: "4f2bd22c0a2ce4d85d3cf3c758371d07",
+        },
+        "1/declaration/body/0/argument/1/5/1": {
+          content: {
+            de: "<element:Image></element:Image> Jetzt bereitstellen",
+            en: "<element:Image></element:Image> Deploy now",
+            es: "<element:Image></element:Image> Implementar ahora",
+            fr: "<element:Image></element:Image> Déployer maintenant",
+          },
+          hash: "1e7142eabfb50a998a0625bc66592354",
+        },
+        "1/declaration/body/0/argument/1/5/1/1-alt": {
+          content: {
+            de: "Vercel-Logomarke",
+            en: "Vercel logomark",
+            es: "Logotipo de Vercel",
+            fr: "Logomark Vercel",
+          },
+          hash: "f9c3b0f527a8caeed7a3a1ac7f4a3ab5",
+        },
+        "1/declaration/body/0/argument/1/5/3": {
+          content: {
+            de: "Unsere Dokumentation lesen",
+            en: "Read our docs",
+            es: "Lee nuestra documentación",
+            fr: "Lire notre documentation",
+          },
+          hash: "c788845ca96b9a02da85f5ba5cc2ec1b",
+        },
+        "1/declaration/body/0/argument/3/1": {
+          content: {
+            de: "<element:Image></element:Image> Lernen",
+            en: "<element:Image></element:Image> Learn",
+            es: "<element:Image></element:Image> Aprender",
+            fr: "<element:Image></element:Image> Apprendre",
+          },
+          hash: "311d29f18ede3976330e70a65c7f9174",
+        },
+        "1/declaration/body/0/argument/3/1/1-alt": {
+          content: {
+            de: "Dateisymbol",
+            en: "File icon",
+            es: "Icono de archivo",
+            fr: "Icône de fichier",
+          },
+          hash: "c9fdbf0f3d05590518cd8cfe360a1435",
+        },
+        "1/declaration/body/0/argument/3/3": {
+          content: {
+            de: "<element:Image></element:Image> Beispiele",
+            en: "<element:Image></element:Image> Examples",
+            es: "<element:Image></element:Image> Ejemplos",
+            fr: "<element:Image></element:Image> Exemples",
+          },
+          hash: "d69424beb631df7de9f7f6b7619d553f",
+        },
+        "1/declaration/body/0/argument/3/3/1-alt": {
+          content: {
+            de: "Fenstersymbol",
+            en: "Window icon",
+            es: "Icono de ventana",
+            fr: "Icône de fenêtre",
+          },
+          hash: "30a1005a1635872a103f100d02d7c9b2",
+        },
+        "1/declaration/body/0/argument/3/5": {
+          content: {
+            de: "<element:Image></element:Image> Zu nextjs.org gehen →",
+            en: "<element:Image></element:Image> Go to nextjs.org →",
+            es: "<element:Image></element:Image> Ir a nextjs.org →",
+            fr: "<element:Image></element:Image> Aller sur nextjs.org →",
+          },
+          hash: "50b10af3ab7eeef1912183a228dd59bf",
+        },
+        "1/declaration/body/0/argument/3/5/1-alt": {
+          content: {
+            de: "Globussymbol",
+            en: "Globe icon",
+            es: "Icono de globo",
+            fr: "Icône de globe",
+          },
+          hash: "4467320f63442e7e0729ad6d55b4a8b1",
+        },
+      },
+    },
+    "../components/email/LoginEmail/index.tsx": {
+      entries: {
+        "2/0/init/body/0/argument/1": {
+          content: {
+            de: "Ihre E-Mail-Adresse <element:b>{email}</element:b> wurde verwendet, um eine Anmeldeanfrage bei <element:b>OnchainWizard</element:b> zu starten. Folgen Sie dem untenstehenden Link, um fortzufahren.",
+            en: "Your email address <element:b>{email}</element:b> was used to initiate a log in request on <element:b>OnchainWizard</element:b>, follow the link below to continue.",
+            es: "Tu dirección de correo electrónico <element:b>{email}</element:b> fue utilizada para iniciar una solicitud de inicio de sesión en <element:b>OnchainWizard</element:b>, sigue el enlace a continuación para continuar.",
+            fr: "Votre adresse e-mail <element:b>{email}</element:b> a été utilisée pour initier une demande de connexion sur <element:b>OnchainWizard</element:b>, suivez le lien ci-dessous pour continuer.",
+          },
+          hash: "f3dc6470e27ba443def088e9c8a5779a",
+        },
+      },
+    },
+    "../components/tambo/markdown-components.tsx": {
+      entries: {
+        "8/0/init/body/2/argument/3-title": {
+          content: {
+            de: "Code kopieren",
+            en: "Copy code",
+            es: "Copiar código",
+            fr: "Copier le code",
+          },
+          hash: "704c13d9bc01caad29a1cf3179baa111",
+        },
+      },
+    },
+    "../components/tambo/message-input.tsx": {
+      entries: {
+        "13/0/init/body/5/argument-aria-label": {
+          content: {
+            de: "Chat-Nachrichteneingabe",
+            en: "Chat Message Input",
+            es: "Entrada de mensaje de chat",
+            fr: "Saisie de message de chat",
+          },
+          hash: "ff8160ca793b4337a2ae3b55ed91b165",
+        },
+      },
+    },
+    "../components/tambo/message-suggestions.tsx": {
+      entries: {
+        "15/0/init/0/body/1/argument/7/1/expression/alternate/consequent/3": {
+          content: {
+            de: "Vorschläge werden generiert...",
+            en: "Generating suggestions...",
+            es: "Generando sugerencias...",
+            fr: "Génération de suggestions...",
+          },
+          hash: "bd20b18e099dcc0a3623c0a01a1a8b83",
+        },
+        "18/0/init/0/body/4/argument/1/expression/alternate/0/body/1": {
+          content: {
+            de: "Platzhalter",
+            en: "Placeholder",
+            es: "Marcador de posición",
+            fr: "Placeholder",
+          },
+          hash: "88c2c168aff12ca70148fcb5f6b4c7b1",
+        },
+        "18/0/init/0/body/4/argument/1/expression/consequent/0/body/openingElement/1/value/expression":
+          {
+            content: {
+              de: "{modKey}+{altKey}+<expression/>",
+              en: "{modKey}+{altKey}+<expression/>",
+              es: "{modKey}+{altKey}+<expression/>",
+              fr: "{modKey}+{altKey}+<expression/>",
+            },
+            hash: "f31601e3feba527374d829919cef81af",
+          },
+      },
+    },
+    "../components/tambo/message.tsx": {
+      entries: {
+        "22/0/init/0/body/5/argument/1/expression/alternate/1/expression/consequent":
+          {
+            content: {
+              de: "Leere Nachricht",
+              en: "Empty message",
+              es: "Mensaje vacío",
+              fr: "Message vide",
+            },
+            hash: "baff720fb8b5b98d628017237c7cfd97",
+          },
+        "22/0/init/0/body/5/argument/1/expression/alternate/3/expression/right":
+          {
+            content: {
+              de: "abgebrochen",
+              en: "cancelled",
+              es: "cancelado",
+              fr: "annulé",
+            },
+            hash: "3264b6023ca6800a6ba67a9656b5661d",
+          },
+        "26/0/init/0/body/9/argument/1/3/1": {
+          content: {
+            de: "tool: <expression/>",
+            en: "tool: <expression/>",
+            es: "herramienta: <expression/>",
+            fr: "outil : <expression/>",
+          },
+          hash: "699d9cbbd9304f82c6abf3a64fbead48",
+        },
+        "26/0/init/0/body/9/argument/1/3/3": {
+          content: {
+            de: "parameters:<expression/><function:stringify/>",
+            en: "parameters:<expression/><function:stringify/>",
+            es: "parámetros:<expression/><function:stringify/>",
+            fr: "paramètres :<expression/><function:stringify/>",
+          },
+          hash: "fec7307ef65be4cc85e4d7aaa196701e",
+        },
+        "26/0/init/0/body/9/argument/1/3/5/expression/right/1": {
+          content: {
+            de: "ergebnis:",
+            en: "result:",
+            es: "resultado:",
+            fr: "résultat :",
+          },
+          hash: "dc78a30f492a58bf2f3fbec2f2c80222",
+        },
+        "26/0/init/0/body/9/argument/1/3/5/expression/right/3/1/expression/consequent":
+          {
+            content: {
+              de: "Leere Antwort",
+              en: "Empty response",
+              es: "Respuesta vacía",
+              fr: "Réponse vide",
+            },
+            hash: "b2ba9ef458d74f34124f7fbc99a3d3d0",
+          },
+        "31/0/init/0/body/4/argument/1/expression/right/consequent/1": {
+          content: {
+            de: "Komponente anzeigen<element:ExternalLink></element:ExternalLink>",
+            en: "View component<element:ExternalLink></element:ExternalLink>",
+            es: "Ver componente<element:ExternalLink></element:ExternalLink>",
+            fr: "Voir le composant<element:ExternalLink></element:ExternalLink>",
+          },
+          hash: "c2fb0eb54cf4abe70bb6fd1a021fb6a0",
+        },
+        "31/0/init/0/body/4/argument/1/expression/right/consequent/1-aria-label":
+          {
+            content: {
+              de: "Komponente im Canvas anzeigen",
+              en: "View component in canvas",
+              es: "Ver componente en canvas",
+              fr: "Voir le composant dans le canevas",
+            },
+            hash: "85daeea080f7ade8f4c45e7fdd969d91",
+          },
+      },
+    },
+    "../components/tambo/thread-history.tsx": {
+      entries: {
+        "11/0/init/0/body/1/argument/1/expression/right": {
+          content: {
+            de: "Tambo-Konversationen",
+            en: "Tambo Conversations",
+            es: "Conversaciones de Tambo",
+            fr: "Conversations Tambo",
+          },
+          hash: "8675bc4842c98ef6dfbe6d6a795bd62e",
+        },
+        "13/0/init/0/body/3/argument-title": {
+          content: {
+            de: "Neuer Thread",
+            en: "New thread",
+            es: "Nuevo hilo",
+            fr: "Nouvelle discussion",
+          },
+          hash: "84e3eb143e4bbecae2115c2b8a53fa38",
+        },
+        "13/0/init/0/body/3/argument/3/expression/right": {
+          content: {
+            de: "Neuer Thread",
+            en: "New thread",
+            es: "Nuevo hilo",
+            fr: "Nouvelle discussion",
+          },
+          hash: "84e3eb143e4bbecae2115c2b8a53fa38",
+        },
+        "15/0/init/0/body/3/argument/1/expression/alternate/3-placeholder": {
+          content: {
+            de: "Suchen...",
+            en: "Search...",
+            es: "Buscar...",
+            fr: "Rechercher...",
+          },
+          hash: "fe877a75eac472fc5b188c135c78a558",
+        },
+        "15/0/init/0/body/3/argument/1/expression/consequent-title": {
+          content: {
+            de: "Threads durchsuchen",
+            en: "Search threads",
+            es: "Buscar hilos",
+            fr: "Rechercher des discussions",
+          },
+          hash: "71053d014608c7b0e33b705adfdca896",
+        },
+        "17/0/init/0/body/13/alternate/alternate/alternate/0/expression/right/1/expression/0/body/1/1/expression/consequent/1-placeholder":
+          {
+            content: {
+              de: "Thread-Name...",
+              en: "Thread name...",
+              es: "Nombre del hilo...",
+              fr: "Nom de la discussion...",
+            },
+            hash: "230ca56fa5e5cae6e48f179318330adf",
+          },
+        "17/0/init/0/body/13/alternate/consequent/0/expression/right": {
+          content: {
+            de: "Fehler beim Laden der Threads",
+            en: "Error loading threads",
+            es: "Error al cargar hilos",
+            fr: "Erreur lors du chargement des discussions",
+          },
+          hash: "395d718df3af6729b8a49470906a929f",
+        },
+        "17/0/init/0/body/13/consequent/0/expression/right": {
+          content: {
+            de: "Threads werden geladen...",
+            en: "Loading threads...",
+            es: "Cargando hilos...",
+            fr: "Chargement des discussions...",
+          },
+          hash: "a4be30f2c934f0135e76077f397d4b8e",
+        },
+        "19/0/init/body/0/argument/3/1/1": {
+          content: {
+            de: "<element:Pencil></element:Pencil> Umbenennen",
+            en: "<element:Pencil></element:Pencil> Rename",
+            es: "<element:Pencil></element:Pencil> Renombrar",
+            fr: "<element:Pencil></element:Pencil> Renommer",
+          },
+          hash: "5536257c315f8251caeeb23755aeab86",
+        },
+        "19/0/init/body/0/argument/3/1/3": {
+          content: {
+            de: "<element:Sparkles></element:Sparkles> Namen generieren",
+            en: "<element:Sparkles></element:Sparkles> Generate Name",
+            es: "<element:Sparkles></element:Sparkles> Generar nombre",
+            fr: "<element:Sparkles></element:Sparkles> Générer un nom",
+          },
+          hash: "e4ce714b58ee52dcf102252cb171368c",
+        },
+      },
+    },
+  },
+};

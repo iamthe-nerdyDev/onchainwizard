@@ -9,5 +9,4 @@ export default lingoCompiler.next({
   sourceLocale: "en",
   targetLocales: ["es", "fr", "de"],
   models: "lingo.dev",
-  sourceRoot: ".",
 })(nextConfig);

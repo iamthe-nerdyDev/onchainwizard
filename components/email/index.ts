@@ -1,1 +1,1 @@
-export { default as LoginEmail } from "./LoginEmail.tsx/index.jsx";
+export { default as LoginEmail } from "./LoginEmail";

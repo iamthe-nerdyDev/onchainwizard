@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { LingoProvider, loadDictionary } from "lingo.dev/react/rsc";
 import { Geist, Geist_Mono } from "next/font/google";
+import { CustomTamboProvider } from "@/components";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -27,7 +28,7 @@ export default function RootLayout({
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
-          {children}
+          <CustomTamboProvider>{children}</CustomTamboProvider>
         </body>
       </html>
     </LingoProvider>
