@@ -14,6 +14,109 @@ export default {
         },
       },
     },
+    "../app/login/page.tsx": {
+      entries: {
+        "1/0/init/body/0/argument": {
+          content: {
+            de: "Anmelden",
+            en: "Login",
+            es: "Iniciar sesión",
+            fr: "Connexion",
+          },
+          hash: "f4f219abeb5a465ecb1c7efaf50246de",
+        },
+        "2/0/init/body/0/argument": {
+          content: {
+            de: "Anmelden",
+            en: "Login",
+            es: "Iniciar sesión",
+            fr: "Connexion",
+          },
+          hash: "f4f219abeb5a465ecb1c7efaf50246de",
+        },
+        "2/declaration/body/0/argument/1/1/1": {
+          content: {
+            de: "<element:div><element:GalleryVerticalEnd></element:GalleryVerticalEnd></element:div> Acme Inc.",
+            en: "<element:div><element:GalleryVerticalEnd></element:GalleryVerticalEnd></element:div> Acme Inc.",
+            es: "<element:div><element:GalleryVerticalEnd></element:GalleryVerticalEnd></element:div> Acme Inc.",
+            fr: "<element:div><element:GalleryVerticalEnd></element:GalleryVerticalEnd></element:div> Acme Inc.",
+          },
+          hash: "6e8fd4f895a75cef1bab69065a8791cc",
+        },
+        "2/declaration/body/0/argument/1/1/1/1": {
+          content: {
+            de: "OnchainWizard",
+            en: "OnchainWizard",
+            es: "OnchainWizard",
+            fr: "OnchainWizard",
+          },
+          hash: "c8f6c5df051a06c280f3a6bfefebf0f2",
+        },
+        "2/declaration/body/0/argument/3/1-alt": {
+          content: {
+            de: "Bild",
+            en: "Image",
+            es: "Imagen",
+            fr: "Image",
+          },
+          hash: "048ba7a239de0fbd883ade8558415830",
+        },
+        "3/0/init/body/0/argument": {
+          content: {
+            de: "Anmelden",
+            en: "Login",
+            es: "Iniciar sesión",
+            fr: "Connexion",
+          },
+          hash: "f4f219abeb5a465ecb1c7efaf50246de",
+        },
+        "5/0/init/body/0/argument": {
+          content: {
+            de: "Anmelden",
+            en: "Login",
+            es: "Iniciar sesión",
+            fr: "Connexion",
+          },
+          hash: "f4f219abeb5a465ecb1c7efaf50246de",
+        },
+        "5/0/init/body/1/argument": {
+          content: {
+            de: "Anmelden",
+            en: "Login",
+            es: "Iniciar sesión",
+            fr: "Connexion",
+          },
+          hash: "f4f219abeb5a465ecb1c7efaf50246de",
+        },
+        "5/0/init/body/2/argument": {
+          content: {
+            de: "Anmelden",
+            en: "Login",
+            es: "Iniciar sesión",
+            fr: "Connexion",
+          },
+          hash: "f4f219abeb5a465ecb1c7efaf50246de",
+        },
+        "6/0/init/body/1/argument": {
+          content: {
+            de: "Anmelden",
+            en: "Login",
+            es: "Iniciar sesión",
+            fr: "Connexion",
+          },
+          hash: "f4f219abeb5a465ecb1c7efaf50246de",
+        },
+        "6/0/init/body/4/argument": {
+          content: {
+            de: "Anmelden",
+            en: "Login",
+            es: "Iniciar sesión",
+            fr: "Connexion",
+          },
+          hash: "f4f219abeb5a465ecb1c7efaf50246de",
+        },
+      },
+    },
     "../app/page.tsx": {
       entries: {
         "1/0/init/body/0/argument": {
@@ -346,6 +449,33 @@ export default {
           },
           hash: "f4f219abeb5a465ecb1c7efaf50246de",
         },
+        "5/0/init/body/0/argument/1/1/1/1": {
+          content: {
+            de: "OnchainWizard",
+            en: "OnchainWizard",
+            es: "OnchainWizard",
+            fr: "OnchainWizard",
+          },
+          hash: "a27078f824adbcc0bec4fed60463ce98",
+        },
+        "5/0/init/body/0/argument/1/1/3/1/1": {
+          content: {
+            de: "Anmelden",
+            en: "Login",
+            es: "Iniciar sesión",
+            fr: "Connexion",
+          },
+          hash: "f4f219abeb5a465ecb1c7efaf50246de",
+        },
+        "5/0/init/body/0/argument/1/1/3/3/1": {
+          content: {
+            de: "Anmelden",
+            en: "Login",
+            es: "Iniciar sesión",
+            fr: "Connexion",
+          },
+          hash: "f4f219abeb5a465ecb1c7efaf50246de",
+        },
       },
     },
     "../components/email/LoginEmail/index.tsx": {
@@ -358,6 +488,109 @@ export default {
             fr: "Votre adresse e-mail <element:b>{email}</element:b> a été utilisée pour initier une demande de connexion sur <element:b>OnchainWizard</element:b>, suivez le lien ci-dessous pour continuer.",
           },
           hash: "f3dc6470e27ba443def088e9c8a5779a",
+        },
+      },
+    },
+    "../components/login-form.tsx": {
+      entries: {
+        "4/declaration/body/0/argument/1/1": {
+          content: {
+            de: "Anmelden",
+            en: "Log in",
+            es: "Iniciar sesión",
+            fr: "Se connecter",
+          },
+          hash: "9fb886eff8d1d67d8bb79f5c3f78edde",
+        },
+        "4/declaration/body/0/argument/1/3": {
+          content: {
+            de: "Starten Sie mit einem Magic-Link",
+            en: "Get started with a magic link",
+            es: "Comienza con un enlace mágico",
+            fr: "Commencer avec un lien magique",
+          },
+          hash: "dd0d1fb8ee2999acc0363193337071a5",
+        },
+        "4/declaration/body/0/argument/3/1/1": {
+          content: {
+            de: "E-Mail",
+            en: "Email",
+            es: "Correo electrónico",
+            fr: "Email",
+          },
+          hash: "e7f34943a0c2fb849db1839ff6ef5cb5",
+        },
+        "4/declaration/body/0/argument/3/1/3-placeholder": {
+          content: {
+            de: "m@example.com",
+            en: "m@example.com",
+            es: "m@example.com",
+            fr: "m@example.com",
+          },
+          hash: "a1d5a06a89e9a1c3560b2f74503c3f35",
+        },
+        "4/declaration/body/0/argument/3/3": {
+          content: {
+            de: "Login-Link erhalten",
+            en: "Get Login Link",
+            es: "Obtener enlace de acceso",
+            fr: "Obtenir le lien de connexion",
+          },
+          hash: "9d10438becfdcd89f7f97eaa08242e61",
+        },
+        "4/declaration/body/0/argument/3/3/1/1": {
+          content: {
+            de: "Passwort",
+            en: "Password",
+            es: "Contraseña",
+            fr: "Mot de passe",
+          },
+          hash: "223a61cf906ab9c40d22612c588dff48",
+        },
+        "4/declaration/body/0/argument/3/3/1/3": {
+          content: {
+            de: "Passwort vergessen?",
+            en: "Forgot your password?",
+            es: "¿Olvidaste tu contraseña?",
+            fr: "Mot de passe oublié ?",
+          },
+          hash: "c34efd81bd54c24756159dd4be05fbc0",
+        },
+        "4/declaration/body/0/argument/3/5": {
+          content: {
+            de: "Login",
+            en: "Login",
+            es: "Iniciar sesión",
+            fr: "Se connecter",
+          },
+          hash: "4eba28127f8afd302797d651639268ac",
+        },
+        "4/declaration/body/0/argument/3/7/1": {
+          content: {
+            de: "Oder fortfahren mit",
+            en: "Or continue with",
+            es: "O continúa con",
+            fr: "Ou continuer avec",
+          },
+          hash: "25048099316e9205e044805441cc1b27",
+        },
+        "4/declaration/body/0/argument/3/9": {
+          content: {
+            de: "<element:svg><element:path></element:path></element:svg> Mit GitHub einloggen",
+            en: "<element:svg><element:path></element:path></element:svg> Login with GitHub",
+            es: "<element:svg><element:path></element:path></element:svg> Iniciar sesión con GitHub",
+            fr: "<element:svg><element:path></element:path></element:svg> Se connecter avec GitHub",
+          },
+          hash: "107d31adf18162c16719d39944cd5771",
+        },
+        "4/declaration/body/0/argument/5": {
+          content: {
+            de: "Du hast noch kein Konto? <element:a>Registrieren</element:a>",
+            en: "Don't have an account? <element:a>Sign up</element:a>",
+            es: "¿No tienes una cuenta? <element:a>Regístrate</element:a>",
+            fr: "Vous n'avez pas de compte ? <element:a>S'inscrire</element:a>",
+          },
+          hash: "1abfbb03164fbff090715452ec07a6cb",
         },
       },
     },

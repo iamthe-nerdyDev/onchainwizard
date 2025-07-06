@@ -1,1 +1,1 @@
-export { default as LoginEmail } from "./LoginEmail";
+export { default as LoginOTP } from "./LoginOTP";

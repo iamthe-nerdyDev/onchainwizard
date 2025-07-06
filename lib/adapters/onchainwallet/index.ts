@@ -37,7 +37,7 @@ const ENCRYPTION_KEY = process.env.ENCRYPTION_KEY!;
 const connection = new Connection(RPC_URL);
 
 export class OnchainWallet {
-  baseUrl = process.env.BETTER_AUTH_URL;
+  baseUrl = process.env.NEXTAUTH_URL;
 
   static async getDecimals(mint: string): Promise<number> {
     const info = await connection.getParsedAccountInfo(new PublicKey(mint));
@@ -48,7 +48,8 @@ export class OnchainWallet {
     const keypair = Keypair.generate();
     const pk = bs58.encode(keypair.secretKey);
 
-    return CryptoJS.AES.encrypt(pk, ENCRYPTION_KEY).toString();
+    const encryptedPK = CryptoJS.AES.encrypt(pk, ENCRYPTION_KEY).toString();
+    return { encryptedPK, publicKey: keypair.publicKey.toBase58() };
   }
 
   static decryptKey(ciphertext: string) {
@@ -153,7 +154,9 @@ export class OnchainWallet {
   }
 
   async sendNft(
-    params: Omit<SendTokenParams, "recipients"> & { recipient: string }
+    params: Omit<SendTokenParams, "recipients" | "runAt"> & {
+      recipient: string;
+    }
   ) {
     const keypair = Keypair.fromSecretKey(bs58.decode(params.pk));
     const transaction = new Transaction();
@@ -217,7 +220,7 @@ export class OnchainWallet {
 
     const metadataUri = await umi.uploader.uploadJson(metadata);
     const mint = generateSigner(umi);
-    await createNft(umi, {
+    return await createNft(umi, {
       mint,
       name: params.name,
       symbol: params.symbol,
