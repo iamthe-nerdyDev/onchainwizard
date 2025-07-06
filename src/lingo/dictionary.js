@@ -139,6 +139,19 @@ export default {
         },
       },
     },
+    "../components/tambo/canvas-space.tsx": {
+      entries: {
+        "2/declaration/0/init/body/3/argument/1/1/1/expression/alternate/1": {
+          content: {
+            de: "bereit",
+            en: "ready",
+            es: "listo",
+            fr: "prêt",
+          },
+          hash: "2e78e68302636a97589f6e93a9857bde",
+        },
+      },
+    },
     "../components/tambo/markdown-components.tsx": {
       entries: {
         "8/0/init/body/2/argument/3-title": {

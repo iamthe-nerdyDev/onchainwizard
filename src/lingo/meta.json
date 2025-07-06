@@ -125,6 +125,18 @@
         }
       }
     },
+    "../components/tambo/canvas-space.tsx": {
+      "scopes": {
+        "2/declaration/0/init/body/3/argument/1/1/1/expression/alternate/1": {
+          "type": "element",
+          "hash": "2e78e68302636a97589f6e93a9857bde",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "ready"
+        }
+      }
+    },
     "../components/tambo/markdown-components.tsx": {
       "scopes": {
         "8/0/init/body/2/argument/3-title": {

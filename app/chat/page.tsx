@@ -1,11 +1,19 @@
 import React from "react";
-import { MessageThreadPanel } from "@/components/tambo/message-thread-panel";
+import { CanvasSpace } from "@/components/tambo/canvas-space";
+import { MessageThreadFull } from "@/components/tambo/message-thread-full";
 
 const Chat = () => {
   return (
-    <div>
-      Chat
-      <MessageThreadPanel />
+    <div className="flex h-screen py-6">
+      <div className="flex flex-col h-full bg-white">
+        <div className="w-[500px] min-w-[400px] h-full p-8">
+          <MessageThreadFull contextKey="tambo-template" />
+        </div>
+      </div>
+
+      <div className="flex-1 bg-white p-10">
+        <CanvasSpace />
+      </div>
     </div>
   );
 };
