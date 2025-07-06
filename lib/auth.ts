@@ -3,7 +3,7 @@ import { prismaAdapter } from "better-auth/adapters/prisma";
 import prisma from "./adapters/prisma";
 import { magicLink } from "better-auth/plugins";
 import resend from "./adapters/resend";
-import { LoginEmail } from "@/components";
+import { LoginEmail } from "@/components/email";
 
 export const auth = betterAuth({
   appName: "OnchainWizard",

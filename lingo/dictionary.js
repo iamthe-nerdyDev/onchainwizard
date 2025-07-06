@@ -16,6 +16,15 @@ export default {
     },
     "../app/page.tsx": {
       entries: {
+        "1/0/init/body/0/argument": {
+          content: {
+            de: "Startseite",
+            en: "Home",
+            es: "Inicio",
+            fr: "Accueil",
+          },
+          hash: "104a3db3b671c04e167eafbe21e57881",
+        },
         "1/declaration/body/0/argument/1/1-alt": {
           content: {
             de: "Next.js-Logo",
@@ -123,6 +132,86 @@ export default {
             fr: "Icône de globe",
           },
           hash: "4467320f63442e7e0729ad6d55b4a8b1",
+        },
+      },
+    },
+    "../components/AnimatedBeamDemo/index.tsx": {
+      entries: {
+        "5/0/init/body/3/argument/1/1/1": {
+          content: {
+            de: "user",
+            en: "user",
+            es: "usuario",
+            fr: "utilisateur",
+          },
+          hash: "c692e64e96302ec55ddccebfe7225735",
+        },
+        "5/0/init/body/3/argument/1/1/1/1": {
+          content: {
+            de: "benutzer",
+            en: "user",
+            es: "usuario",
+            fr: "utilisateur",
+          },
+          hash: "2b60bf8cd27dfd1306af31f07b4f0134",
+        },
+        "5/0/init/body/3/argument/1/1/1/3": {
+          content: {
+            de: "ki",
+            en: "ai",
+            es: "ia",
+            fr: "ia",
+          },
+          hash: "b5ed891afc5c1e93b022c6c03bd18ed4",
+        },
+        "5/0/init/body/3/argument/1/1/3": {
+          content: {
+            de: "ai",
+            en: "ai",
+            es: "ia",
+            fr: "ia",
+          },
+          hash: "530936f7c3e37a4016c4f8abc2f295e2",
+        },
+        "6/0/init/body/3/argument/1/1/1/1": {
+          content: {
+            de: "<element:BotIcon></element:BotIcon> benutzer",
+            en: "<element:BotIcon></element:BotIcon> user",
+            es: "<element:BotIcon></element:BotIcon> usuario",
+            fr: "<element:BotIcon></element:BotIcon> utilisateur",
+          },
+          hash: "54e2027016c6c0f42093afcbfa197c4c",
+        },
+        "6/0/init/body/3/argument/1/1/1/3": {
+          content: {
+            de: "ki",
+            en: "ai",
+            es: "ia",
+            fr: "ia",
+          },
+          hash: "b5ed891afc5c1e93b022c6c03bd18ed4",
+        },
+      },
+    },
+    "../components/Features/index.tsx": {
+      entries: {
+        "10/0/init/1/6/value/1/expression/0/body/1/3/1/3": {
+          content: {
+            de: "·",
+            en: "·",
+            es: "·",
+            fr: "·",
+          },
+          hash: "26b80ae8a680de73667e096098aa69d8",
+        },
+        "11/0/init/1/6/value/1/expression/0/body/1/3/1/3": {
+          content: {
+            de: "·",
+            en: "·",
+            es: "·",
+            fr: "·",
+          },
+          hash: "26b80ae8a680de73667e096098aa69d8",
         },
       },
     },

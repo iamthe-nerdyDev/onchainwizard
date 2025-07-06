@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { LingoProvider, loadDictionary } from "lingo.dev/react/rsc";
 import { Geist, Geist_Mono } from "next/font/google";
-import { CustomTamboProvider } from "@/components";
+import CustomTamboProvider from "@/components/CustomTamboProvider";
 import "./globals.css";
 
 const geistSans = Geist({
