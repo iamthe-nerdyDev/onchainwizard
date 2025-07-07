@@ -184,7 +184,7 @@ export class OnchainWallet {
     };
 
     const { uuid } = await prisma.nft.create({
-      data: JSON.stringify(metadata),
+      data: { data: metadata },
     });
     const uri = `${BASE_URL}/api/nft/${uuid}`;
 
