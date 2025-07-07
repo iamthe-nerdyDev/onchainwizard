@@ -135,13 +135,7 @@ export const deleteContact = async (payload: { filter: { id: string } }) => {
 
 export const getContactsSchema = z
   .function()
-  .args(
-    z
-      .void()
-      .describe(
-        "No parameters required - retrieves all contacts for the current user"
-      )
-  )
+  .args()
   .returns(
     z
       .array(ContactSchema)

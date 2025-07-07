@@ -17,6 +17,9 @@ import { z } from "zod";
 import { moralisTools } from "../tools/moralis.tools";
 import { onchainTools } from "../tools/onchain.tools";
 import { appTools } from "../tools/app.tools";
+import Table from "../components/Table";
+import Chart, { ChartPropsSchema } from "../components/Chart";
+import Render from "../components/Render";
 
 /**
  * Components Array - A collection of Tambo components to register
@@ -44,7 +47,26 @@ import { appTools } from "../tools/app.tools";
  * ];
  * ```
  */
-export const components: TamboComponent[] = [];
+export const components: TamboComponent[] = [
+  // {
+  //   name: "Table",
+  //   description: "Renders a custom table with the provided data",
+  //   component: Table,
+  //   propsSchema: z.object({}),
+  // },
+  // {
+  //   name: "Chart",
+  //   description: "Renders a custom chart with the provided data",
+  //   component: Chart,
+  //   propsSchema: ChartPropsSchema,
+  // },
+  // {
+  //   name: "Render",
+  //   description: "Renders a custom div to visualize text information better",
+  //   component: Render,
+  //   propsSchema: z.object({}),
+  // },
+];
 
 /**
  * tools

@@ -11,6 +11,54 @@
           "overrides": {},
           "content": "Checklist"
         },
+        "10/0/init/body/5/argument/1/1": {
+          "type": "element",
+          "hash": "e9d4e262aba63cd43228dfa0bc8ade25",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "A few more things to <element:br></element:br> Get you started"
+        },
+        "10/0/init/body/5/argument/1/3/expression/alternate/1/1/expression/0/body/3/1/5/1/expression/consequent/3/1/1": {
+          "type": "element",
+          "hash": "1ab82b6504cbb99dae94a14830f5cec9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Experience Level"
+        },
+        "10/0/init/body/5/argument/1/3/expression/alternate/1/1/expression/0/body/3/1/5/3": {
+          "type": "element",
+          "hash": "687c30c867e4de70e7ffe6a33cd3829a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Save"
+        },
+        "10/0/init/body/5/argument/1/3/expression/consequent/1": {
+          "type": "element",
+          "hash": "d16302b85fa2f031ba0b10ae8fb3076f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "You are all set up!"
+        },
+        "10/0/init/body/5/argument/1/3/expression/consequent/1/1": {
+          "type": "element",
+          "hash": "ecd18d5c4e85c5ff8f4d527615b211a1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Get chatty!"
+        },
+        "10/0/init/body/5/argument/1/3/expression/consequent/3/1": {
+          "type": "element",
+          "hash": "ecd18d5c4e85c5ff8f4d527615b211a1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Get chatty!"
+        },
         "4/0/init/body/0/argument": {
           "type": "element",
           "hash": "7a6e1a720d51bcf1ad196e7b87bb731c",
@@ -74,6 +122,158 @@
           "skip": false,
           "overrides": {},
           "content": "You've completed all the setup steps. Welcome to your web3 journey!"
+        },
+        "4/0/init/body/5/argument/1/1": {
+          "type": "element",
+          "hash": "e9d4e262aba63cd43228dfa0bc8ade25",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "A few more things to <element:br></element:br> Get you started"
+        },
+        "5/0/init/body/4/argument/1/1": {
+          "type": "element",
+          "hash": "e9d4e262aba63cd43228dfa0bc8ade25",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "A few more things to <element:br></element:br> Get you started"
+        },
+        "5/0/init/body/4/argument/1/3/1/1/expression/0/body/1": {
+          "type": "element",
+          "hash": "e6ee3256cf97b78cf8d33123acf20205",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Product Information"
+        },
+        "5/0/init/body/4/argument/1/3/1/1/expression/0/body/3/1": {
+          "type": "element",
+          "hash": "c05a9685035b4f3916c826aa36781b2b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Our flagship product combines cutting-edge technology with sleek design. Built with premium materials, it offers unparalleled performance and reliability."
+        },
+        "5/0/init/body/4/argument/1/3/1/1/expression/0/body/3/3": {
+          "type": "element",
+          "hash": "3718f24e77c8a6be47d03959f25c3ec0",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Key features include advanced processing capabilities, and an intuitive user interface designed for both beginners and experts."
+        },
+        "7/0/init/body/4/argument/1/1": {
+          "type": "element",
+          "hash": "e9d4e262aba63cd43228dfa0bc8ade25",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "A few more things to <element:br></element:br> Get you started"
+        },
+        "7/0/init/body/4/argument/1/3/1/1/expression/0/body/3/1/3-placeholder": {
+          "type": "attribute",
+          "hash": "e7f34943a0c2fb849db1839ff6ef5cb5",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Email"
+        },
+        "7/0/init/body/4/argument/1/3/1/1/expression/0/body/3/1/3/3": {
+          "type": "element",
+          "hash": "d84f6f0a26e66d6bc154d9bcd8d6e5fa",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Save"
+        },
+        "7/0/init/body/4/argument/1/3/1/1/expression/0/body/3/1/5": {
+          "type": "element",
+          "hash": "1d5a35f8f12bed3c9caf609fb081190d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Subscribe"
+        },
+        "7/0/init/body/5/argument/1/1": {
+          "type": "element",
+          "hash": "e9d4e262aba63cd43228dfa0bc8ade25",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "A few more things to <element:br></element:br> Get you started"
+        },
+        "7/0/init/body/5/argument/1/3/1/1/expression/0/body/3/1/5/3": {
+          "type": "element",
+          "hash": "d84f6f0a26e66d6bc154d9bcd8d6e5fa",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Save"
+        },
+        "8/0/init/body/5/argument/1/1": {
+          "type": "element",
+          "hash": "e9d4e262aba63cd43228dfa0bc8ade25",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "A few more things to <element:br></element:br> Get you started"
+        },
+        "8/0/init/body/5/argument/1/3/1/1/expression/0/body/3/1/5/1/expression/consequent/3/1/1": {
+          "type": "element",
+          "hash": "1ab82b6504cbb99dae94a14830f5cec9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Experience Level"
+        },
+        "8/0/init/body/5/argument/1/3/1/1/expression/0/body/3/1/5/3": {
+          "type": "element",
+          "hash": "687c30c867e4de70e7ffe6a33cd3829a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Save"
+        },
+        "8/0/init/body/5/argument/1/3/expression/alternate/1/1/expression/0/body/3/1/5/1/expression/consequent/3/1/1": {
+          "type": "element",
+          "hash": "1ab82b6504cbb99dae94a14830f5cec9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Experience Level"
+        },
+        "8/0/init/body/5/argument/1/3/expression/alternate/1/1/expression/0/body/3/1/5/3": {
+          "type": "element",
+          "hash": "687c30c867e4de70e7ffe6a33cd3829a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Save"
+        },
+        "9/0/init/body/5/argument/1/1": {
+          "type": "element",
+          "hash": "e9d4e262aba63cd43228dfa0bc8ade25",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "A few more things to <element:br></element:br> Get you started"
+        },
+        "9/0/init/body/5/argument/1/3/expression/alternate/1/1/expression/0/body/3/1/5/1/expression/consequent/3/1/1": {
+          "type": "element",
+          "hash": "1ab82b6504cbb99dae94a14830f5cec9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Experience Level"
+        },
+        "9/0/init/body/5/argument/1/3/expression/alternate/1/1/expression/0/body/3/1/5/3": {
+          "type": "element",
+          "hash": "687c30c867e4de70e7ffe6a33cd3829a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Save"
         }
       }
     },
@@ -729,6 +929,202 @@
         }
       }
     },
+    "../components/Navbar/AuthButton.tsx": {
+      "scopes": {
+        "2/0/init/body/0/argument": {
+          "type": "element",
+          "hash": "f01e599cced8b7d7105329947b5096de",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Hello"
+        },
+        "3/0/init/body/0/argument": {
+          "type": "element",
+          "hash": "f462de38662f81b8b9481977eec5e84a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Hello<element:DropdownMenu><element:DropdownMenuTrigger><element:Button>Open</element:Button></element:DropdownMenuTrigger><element:DropdownMenuContent><element:DropdownMenuLabel>My Account</element:DropdownMenuLabel><element:DropdownMenuGroup><element:DropdownMenuItem>Profile<element:DropdownMenuShortcut>⇧⌘P</element:DropdownMenuShortcut></element:DropdownMenuItem><element:DropdownMenuItem>Billing<element:DropdownMenuShortcut>⌘B</element:DropdownMenuShortcut></element:DropdownMenuItem><element:DropdownMenuItem>Settings<element:DropdownMenuShortcut>⌘S</element:DropdownMenuShortcut></element:DropdownMenuItem><element:DropdownMenuItem>Keyboard shortcuts<element:DropdownMenuShortcut>⌘K</element:DropdownMenuShortcut></element:DropdownMenuItem></element:DropdownMenuGroup><element:DropdownMenuSeparator></element:DropdownMenuSeparator><element:DropdownMenuGroup><element:DropdownMenuItem>Team</element:DropdownMenuItem><element:DropdownMenuSub><element:DropdownMenuSubTrigger>Invite users</element:DropdownMenuSubTrigger><element:DropdownMenuPortal><element:DropdownMenuSubContent><element:DropdownMenuItem>Email</element:DropdownMenuItem><element:DropdownMenuItem>Message</element:DropdownMenuItem><element:DropdownMenuSeparator></element:DropdownMenuSeparator><element:DropdownMenuItem>More...</element:DropdownMenuItem></element:DropdownMenuSubContent></element:DropdownMenuPortal></element:DropdownMenuSub><element:DropdownMenuItem>New Team<element:DropdownMenuShortcut>⌘+T</element:DropdownMenuShortcut></element:DropdownMenuItem></element:DropdownMenuGroup><element:DropdownMenuSeparator></element:DropdownMenuSeparator><element:DropdownMenuItem>GitHub</element:DropdownMenuItem><element:DropdownMenuItem>Support</element:DropdownMenuItem><element:DropdownMenuItem>API</element:DropdownMenuItem><element:DropdownMenuSeparator></element:DropdownMenuSeparator><element:DropdownMenuItem>Log out<element:DropdownMenuShortcut>⇧⌘Q</element:DropdownMenuShortcut></element:DropdownMenuItem></element:DropdownMenuContent></element:DropdownMenu>"
+        },
+        "3/0/init/body/0/argument/1/1": {
+          "type": "element",
+          "hash": "9a8c3b16091ea6cef3f771fc6715ab67",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Open"
+        },
+        "3/0/init/body/0/argument/3/1": {
+          "type": "element",
+          "hash": "46fc42ee20d1f96fdb432348a6815bd3",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "My Account"
+        },
+        "3/0/init/body/0/argument/3/11": {
+          "type": "element",
+          "hash": "6e1cf3c00fa6fbe24afcc78ea3b5f3e4",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "GitHub"
+        },
+        "3/0/init/body/0/argument/3/13": {
+          "type": "element",
+          "hash": "55aab5fd0f31a9cb055a2edeeedfaf63",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Support"
+        },
+        "3/0/init/body/0/argument/3/15": {
+          "type": "element",
+          "hash": "01d9819514e27056dcc69463194b63d2",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "API"
+        },
+        "3/0/init/body/0/argument/3/19": {
+          "type": "element",
+          "hash": "d3065724811084c6c9618a7e5ba41ea7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Log out<element:DropdownMenuShortcut>⇧⌘Q</element:DropdownMenuShortcut>"
+        },
+        "3/0/init/body/0/argument/3/3/1": {
+          "type": "element",
+          "hash": "708aa5194786082dd46dd8614eca7144",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Profile<element:DropdownMenuShortcut>⇧⌘P</element:DropdownMenuShortcut>"
+        },
+        "3/0/init/body/0/argument/3/3/3": {
+          "type": "element",
+          "hash": "2e09dd00b57ab8bed52d66f394b3b037",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Billing<element:DropdownMenuShortcut>⌘B</element:DropdownMenuShortcut>"
+        },
+        "3/0/init/body/0/argument/3/3/5": {
+          "type": "element",
+          "hash": "c5e4d52e7916dc0142a498e03f97ccb9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Settings<element:DropdownMenuShortcut>⌘S</element:DropdownMenuShortcut>"
+        },
+        "3/0/init/body/0/argument/3/3/7": {
+          "type": "element",
+          "hash": "f04b63ac96bc3f4c00dfe76e42aa01b3",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Keyboard shortcuts<element:DropdownMenuShortcut>⌘K</element:DropdownMenuShortcut>"
+        },
+        "3/0/init/body/0/argument/3/7/1": {
+          "type": "element",
+          "hash": "c621ea9404a37af289def443b309bf1b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Team"
+        },
+        "3/0/init/body/0/argument/3/7/3/1": {
+          "type": "element",
+          "hash": "4fba46198067a955d532d6d69cd59bc8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Invite users"
+        },
+        "3/0/init/body/0/argument/3/7/3/3/1/1": {
+          "type": "element",
+          "hash": "e7f34943a0c2fb849db1839ff6ef5cb5",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Email"
+        },
+        "3/0/init/body/0/argument/3/7/3/3/1/3": {
+          "type": "element",
+          "hash": "f2f72126bd244cfc534eab395e054362",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Message"
+        },
+        "3/0/init/body/0/argument/3/7/3/3/1/7": {
+          "type": "element",
+          "hash": "c94a4b3e1d1e8454ea86e8644892d986",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "More..."
+        },
+        "3/0/init/body/0/argument/3/7/5": {
+          "type": "element",
+          "hash": "083734f5028ffc6fc6806b0ee5ae50fb",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "New Team<element:DropdownMenuShortcut>⌘+T</element:DropdownMenuShortcut>"
+        },
+        "5/0/init/body/6/argument/1/1-alt": {
+          "type": "attribute",
+          "hash": "822d49fc87e60859da3824d26f7d1ae1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "User Avatar"
+        },
+        "5/0/init/body/6/argument/3/expression/right/3": {
+          "type": "element",
+          "hash": "ba4b7f66fc625d79f9385f00be18bd53",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Logout"
+        },
+        "5/0/init/body/7/argument/1/1-alt": {
+          "type": "attribute",
+          "hash": "822d49fc87e60859da3824d26f7d1ae1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "User Avatar"
+        },
+        "5/0/init/body/7/argument/3/expression/right/5": {
+          "type": "element",
+          "hash": "ba4b7f66fc625d79f9385f00be18bd53",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Logout"
+        },
+        "6/0/init/body/5/argument/3/expression/right/5/3": {
+          "type": "element",
+          "hash": "07948fdf20705e04a7bf68ab197512bf",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Logout"
+        },
+        "6/0/init/body/7/argument/3/expression/right/5": {
+          "type": "element",
+          "hash": "ba4b7f66fc625d79f9385f00be18bd53",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Logout"
+        }
+      }
+    },
     "../components/Navbar/index.tsx": {
       "scopes": {
         "1/0/init/body/0/argument": {
@@ -780,6 +1176,54 @@
           "content": "Get Started"
         },
         "5/0/init/body/0/argument/1/1/3/5/1": {
+          "type": "element",
+          "hash": "1d5f030c4ec9c869e647ae060518b948",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Get Started"
+        },
+        "6/0/init/body/1/argument/1/1/1/1": {
+          "type": "element",
+          "hash": "a27078f824adbcc0bec4fed60463ce98",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "OnchainWizard"
+        },
+        "6/0/init/body/1/argument/1/1/3/5/1": {
+          "type": "element",
+          "hash": "1d5f030c4ec9c869e647ae060518b948",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Get Started"
+        },
+        "6/0/init/body/1/argument/1/1/3/5/expression/alternate/1": {
+          "type": "element",
+          "hash": "1d5f030c4ec9c869e647ae060518b948",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Get Started"
+        },
+        "6/0/init/body/1/argument/1/1/3/5/expression/consequent": {
+          "type": "element",
+          "hash": "0959a2dfd60905b6dc76da4e4edc6949",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Logged in!"
+        },
+        "7/0/init/body/1/argument/1/1/1/1": {
+          "type": "element",
+          "hash": "a27078f824adbcc0bec4fed60463ce98",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "OnchainWizard"
+        },
+        "7/0/init/body/1/argument/1/1/3/5/expression/alternate/1": {
           "type": "element",
           "hash": "1d5f030c4ec9c869e647ae060518b948",
           "context": "",

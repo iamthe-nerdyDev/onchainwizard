@@ -12,6 +12,53 @@ export default {
           },
           hash: "7a6e1a720d51bcf1ad196e7b87bb731c",
         },
+        "10/0/init/body/5/argument/1/1": {
+          content: {
+            de: "Noch ein paar Dinge, um <element:br></element:br> dich zum Start zu bringen",
+            en: "A few more things to <element:br></element:br> Get you started",
+            es: "Algunas cosas más para <element:br></element:br> ayudarte a comenzar",
+            fr: "Encore quelques éléments à <element:br></element:br> vous aider à démarrer",
+          },
+          hash: "e9d4e262aba63cd43228dfa0bc8ade25",
+        },
+        "10/0/init/body/5/argument/1/3/expression/alternate/1/1/expression/0/body/3/1/5/1/expression/consequent/3/1/1":
+          {
+            content: {
+              de: "Erfahrungsstufe",
+              en: "Experience Level",
+              es: "Nivel de experiencia",
+              fr: "Niveau d'expérience",
+            },
+            hash: "1ab82b6504cbb99dae94a14830f5cec9",
+          },
+        "10/0/init/body/5/argument/1/3/expression/alternate/1/1/expression/0/body/3/1/5/3":
+          {
+            content: {
+              de: "Speichern",
+              en: "Save",
+              es: "Guardar",
+              fr: "Enregistrer",
+            },
+            hash: "687c30c867e4de70e7ffe6a33cd3829a",
+          },
+        "10/0/init/body/5/argument/1/3/expression/consequent/1": {
+          content: {
+            de: "Alles ist eingerichtet!",
+            en: "You are all set up!",
+            es: "¡Todo está listo!",
+            fr: "Tout est prêt !",
+          },
+          hash: "d16302b85fa2f031ba0b10ae8fb3076f",
+        },
+        "10/0/init/body/5/argument/1/3/expression/consequent/3/1": {
+          content: {
+            de: "Leg los mit dem Chatten!",
+            en: "Get chatty!",
+            es: "¡Comienza a chatear!",
+            fr: "Commencez à discuter !",
+          },
+          hash: "ecd18d5c4e85c5ff8f4d527615b211a1",
+        },
         "4/0/init/body/0/argument": {
           content: {
             de: "Checkliste",
@@ -87,6 +134,183 @@ export default {
           },
           hash: "e397a60e482fe671f3b4f6dd6635ed98",
         },
+        "4/0/init/body/5/argument/1/1": {
+          content: {
+            de: "Noch ein paar Dinge, um <element:br></element:br> dich zum Start zu bringen",
+            en: "A few more things to <element:br></element:br> Get you started",
+            es: "Algunas cosas más para <element:br></element:br> ayudarte a comenzar",
+            fr: "Encore quelques éléments à <element:br></element:br> vous aider à démarrer",
+          },
+          hash: "e9d4e262aba63cd43228dfa0bc8ade25",
+        },
+        "5/0/init/body/4/argument/1/1": {
+          content: {
+            de: "Noch ein paar Dinge, um <element:br></element:br> dich zum Start zu bringen",
+            en: "A few more things to <element:br></element:br> Get you started",
+            es: "Algunas cosas más para <element:br></element:br> ayudarte a comenzar",
+            fr: "Encore quelques éléments à <element:br></element:br> vous aider à démarrer",
+          },
+          hash: "e9d4e262aba63cd43228dfa0bc8ade25",
+        },
+        "5/0/init/body/4/argument/1/3/1/1/expression/0/body/1": {
+          content: {
+            de: "Produktinformationen",
+            en: "Product Information",
+            es: "Información del producto",
+            fr: "Information produit",
+          },
+          hash: "e6ee3256cf97b78cf8d33123acf20205",
+        },
+        "5/0/init/body/4/argument/1/3/1/1/expression/0/body/3/1": {
+          content: {
+            de: "Unser Flaggschiffprodukt verbindet modernste Technologie mit elegantem Design. Es ist aus hochwertigen Materialien gefertigt und bietet eine unvergleichliche Leistung und Zuverlässigkeit.",
+            en: "Our flagship product combines cutting-edge technology with sleek design. Built with premium materials, it offers unparalleled performance and reliability.",
+            es: "Nuestro producto estrella combina tecnología de vanguardia con un diseño elegante. Fabricado con materiales premium, ofrece un rendimiento y fiabilidad sin igual.",
+            fr: "Notre produit phare combine une technologie de pointe avec un design élégant. Fabriqué avec des matériaux de qualité supérieure, il offre des performances et une fiabilité inégalées.",
+          },
+          hash: "c05a9685035b4f3916c826aa36781b2b",
+        },
+        "5/0/init/body/4/argument/1/3/1/1/expression/0/body/3/3": {
+          content: {
+            de: "Zu den wichtigsten Funktionen gehören fortschrittliche Verarbeitungsfähigkeiten und eine intuitive Benutzeroberfläche, die sowohl für Anfänger als auch für Experten konzipiert ist.",
+            en: "Key features include advanced processing capabilities, and an intuitive user interface designed for both beginners and experts.",
+            es: "Las características principales incluyen capacidades de procesamiento avanzadas y una interfaz de usuario intuitiva diseñada tanto para principiantes como para expertos.",
+            fr: "Les caractéristiques principales incluent des capacités de traitement avancées et une interface utilisateur intuitive conçue aussi bien pour les débutants que pour les experts.",
+          },
+          hash: "3718f24e77c8a6be47d03959f25c3ec0",
+        },
+        "7/0/init/body/4/argument/1/1": {
+          content: {
+            de: "Noch ein paar Dinge, um <element:br></element:br> dich zum Start zu bringen",
+            en: "A few more things to <element:br></element:br> Get you started",
+            es: "Algunas cosas más para <element:br></element:br> ayudarte a comenzar",
+            fr: "Encore quelques éléments à <element:br></element:br> vous aider à démarrer",
+          },
+          hash: "e9d4e262aba63cd43228dfa0bc8ade25",
+        },
+        "7/0/init/body/4/argument/1/3/1/1/expression/0/body/3/1/3-placeholder":
+          {
+            content: {
+              de: "E-Mail",
+              en: "Email",
+              es: "Correo electrónico",
+              fr: "Email",
+            },
+            hash: "e7f34943a0c2fb849db1839ff6ef5cb5",
+          },
+        "7/0/init/body/4/argument/1/3/1/1/expression/0/body/3/1/3/3": {
+          content: {
+            de: "Speichern",
+            en: "Save",
+            es: "Guardar",
+            fr: "Enregistrer",
+          },
+          hash: "d84f6f0a26e66d6bc154d9bcd8d6e5fa",
+        },
+        "7/0/init/body/4/argument/1/3/1/1/expression/0/body/3/1/5": {
+          content: {
+            de: "Abonnieren",
+            en: "Subscribe",
+            es: "Suscribirse",
+            fr: "S'abonner",
+          },
+          hash: "1d5a35f8f12bed3c9caf609fb081190d",
+        },
+        "7/0/init/body/5/argument/1/1": {
+          content: {
+            de: "Noch ein paar Dinge, um <element:br></element:br> dich zum Start zu bringen",
+            en: "A few more things to <element:br></element:br> Get you started",
+            es: "Algunas cosas más para <element:br></element:br> ayudarte a comenzar",
+            fr: "Encore quelques éléments à <element:br></element:br> vous aider à démarrer",
+          },
+          hash: "e9d4e262aba63cd43228dfa0bc8ade25",
+        },
+        "7/0/init/body/5/argument/1/3/1/1/expression/0/body/3/1/5/3": {
+          content: {
+            de: "Speichern",
+            en: "Save",
+            es: "Guardar",
+            fr: "Enregistrer",
+          },
+          hash: "d84f6f0a26e66d6bc154d9bcd8d6e5fa",
+        },
+        "8/0/init/body/5/argument/1/1": {
+          content: {
+            de: "Noch ein paar Dinge, um <element:br></element:br> dich zum Start zu bringen",
+            en: "A few more things to <element:br></element:br> Get you started",
+            es: "Algunas cosas más para <element:br></element:br> ayudarte a comenzar",
+            fr: "Encore quelques éléments à <element:br></element:br> vous aider à démarrer",
+          },
+          hash: "e9d4e262aba63cd43228dfa0bc8ade25",
+        },
+        "8/0/init/body/5/argument/1/3/1/1/expression/0/body/3/1/5/1/expression/consequent/3/1/1":
+          {
+            content: {
+              de: "Erfahrungsstufe",
+              en: "Experience Level",
+              es: "Nivel de experiencia",
+              fr: "Niveau d'expérience",
+            },
+            hash: "1ab82b6504cbb99dae94a14830f5cec9",
+          },
+        "8/0/init/body/5/argument/1/3/1/1/expression/0/body/3/1/5/3": {
+          content: {
+            de: "Speichern",
+            en: "Save",
+            es: "Guardar",
+            fr: "Enregistrer",
+          },
+          hash: "687c30c867e4de70e7ffe6a33cd3829a",
+        },
+        "8/0/init/body/5/argument/1/3/expression/alternate/1/1/expression/0/body/3/1/5/1/expression/consequent/3/1/1":
+          {
+            content: {
+              de: "Erfahrungsstufe",
+              en: "Experience Level",
+              es: "Nivel de experiencia",
+              fr: "Niveau d'expérience",
+            },
+            hash: "1ab82b6504cbb99dae94a14830f5cec9",
+          },
+        "8/0/init/body/5/argument/1/3/expression/alternate/1/1/expression/0/body/3/1/5/3":
+          {
+            content: {
+              de: "Speichern",
+              en: "Save",
+              es: "Guardar",
+              fr: "Enregistrer",
+            },
+            hash: "687c30c867e4de70e7ffe6a33cd3829a",
+          },
+        "9/0/init/body/5/argument/1/1": {
+          content: {
+            de: "Noch ein paar Dinge, um <element:br></element:br> dich zum Start zu bringen",
+            en: "A few more things to <element:br></element:br> Get you started",
+            es: "Algunas cosas más para <element:br></element:br> ayudarte a comenzar",
+            fr: "Encore quelques éléments à <element:br></element:br> vous aider à démarrer",
+          },
+          hash: "e9d4e262aba63cd43228dfa0bc8ade25",
+        },
+        "9/0/init/body/5/argument/1/3/expression/alternate/1/1/expression/0/body/3/1/5/1/expression/consequent/3/1/1":
+          {
+            content: {
+              de: "Erfahrungsstufe",
+              en: "Experience Level",
+              es: "Nivel de experiencia",
+              fr: "Niveau d'expérience",
+            },
+            hash: "1ab82b6504cbb99dae94a14830f5cec9",
+          },
+        "9/0/init/body/5/argument/1/3/expression/alternate/1/1/expression/0/body/3/1/5/3":
+          {
+            content: {
+              de: "Speichern",
+              en: "Save",
+              es: "Guardar",
+              fr: "Enregistrer",
+            },
+            hash: "687c30c867e4de70e7ffe6a33cd3829a",
+          },
       },
     },
     "../app/chat/page.tsx": {
@@ -820,6 +1044,226 @@ export default {
         },
       },
     },
+    "../components/Navbar/AuthButton.tsx": {
+      entries: {
+        "2/0/init/body/0/argument": {
+          content: {
+            de: "Hallo",
+            en: "Hello",
+            es: "Hola",
+            fr: "Bonjour",
+          },
+          hash: "f01e599cced8b7d7105329947b5096de",
+        },
+        "3/0/init/body/0/argument": {
+          content: {
+            de: "Hallo<element:DropdownMenu><element:DropdownMenuTrigger><element:Button>Öffnen</element:Button></element:DropdownMenuTrigger><element:DropdownMenuContent><element:DropdownMenuLabel>Mein Konto</element:DropdownMenuLabel><element:DropdownMenuGroup><element:DropdownMenuItem>Profil<element:DropdownMenuShortcut>⇧⌘P</element:DropdownMenuShortcut></element:DropdownMenuItem><element:DropdownMenuItem>Abrechnung<element:DropdownMenuShortcut>⌘B</element:DropdownMenuShortcut></element:DropdownMenuItem><element:DropdownMenuItem>Einstellungen<element:DropdownMenuShortcut>⌘S</element:DropdownMenuShortcut></element:DropdownMenuItem><element:DropdownMenuItem>Tastaturkürzel<element:DropdownMenuShortcut>⌘K</element:DropdownMenuShortcut></element:DropdownMenuItem></element:DropdownMenuGroup><element:DropdownMenuSeparator></element:DropdownMenuSeparator><element:DropdownMenuGroup><element:DropdownMenuItem>Team</element:DropdownMenuItem><element:DropdownMenuSub><element:DropdownMenuSubTrigger>Benutzer einladen</element:DropdownMenuSubTrigger><element:DropdownMenuPortal><element:DropdownMenuSubContent><element:DropdownMenuItem>E-Mail</element:DropdownMenuItem><element:DropdownMenuItem>Nachricht</element:DropdownMenuItem><element:DropdownMenuSeparator></element:DropdownMenuSeparator><element:DropdownMenuItem>Mehr...</element:DropdownMenuItem></element:DropdownMenuSubContent></element:DropdownMenuPortal></element:DropdownMenuSub><element:DropdownMenuItem>Neues Team<element:DropdownMenuShortcut>⌘+T</element:DropdownMenuShortcut></element:DropdownMenuItem></element:DropdownMenuGroup><element:DropdownMenuSeparator></element:DropdownMenuSeparator><element:DropdownMenuItem>GitHub</element:DropdownMenuItem><element:DropdownMenuItem>Support</element:DropdownMenuItem><element:DropdownMenuItem>API</element:DropdownMenuItem><element:DropdownMenuSeparator></element:DropdownMenuSeparator><element:DropdownMenuItem>Abmelden<element:DropdownMenuShortcut>⇧⌘Q</element:DropdownMenuShortcut></element:DropdownMenuItem></element:DropdownMenuContent></element:DropdownMenu>",
+            en: "Hello<element:DropdownMenu><element:DropdownMenuTrigger><element:Button>Open</element:Button></element:DropdownMenuTrigger><element:DropdownMenuContent><element:DropdownMenuLabel>My Account</element:DropdownMenuLabel><element:DropdownMenuGroup><element:DropdownMenuItem>Profile<element:DropdownMenuShortcut>⇧⌘P</element:DropdownMenuShortcut></element:DropdownMenuItem><element:DropdownMenuItem>Billing<element:DropdownMenuShortcut>⌘B</element:DropdownMenuShortcut></element:DropdownMenuItem><element:DropdownMenuItem>Settings<element:DropdownMenuShortcut>⌘S</element:DropdownMenuShortcut></element:DropdownMenuItem><element:DropdownMenuItem>Keyboard shortcuts<element:DropdownMenuShortcut>⌘K</element:DropdownMenuShortcut></element:DropdownMenuItem></element:DropdownMenuGroup><element:DropdownMenuSeparator></element:DropdownMenuSeparator><element:DropdownMenuGroup><element:DropdownMenuItem>Team</element:DropdownMenuItem><element:DropdownMenuSub><element:DropdownMenuSubTrigger>Invite users</element:DropdownMenuSubTrigger><element:DropdownMenuPortal><element:DropdownMenuSubContent><element:DropdownMenuItem>Email</element:DropdownMenuItem><element:DropdownMenuItem>Message</element:DropdownMenuItem><element:DropdownMenuSeparator></element:DropdownMenuSeparator><element:DropdownMenuItem>More...</element:DropdownMenuItem></element:DropdownMenuSubContent></element:DropdownMenuPortal></element:DropdownMenuSub><element:DropdownMenuItem>New Team<element:DropdownMenuShortcut>⌘+T</element:DropdownMenuShortcut></element:DropdownMenuItem></element:DropdownMenuGroup><element:DropdownMenuSeparator></element:DropdownMenuSeparator><element:DropdownMenuItem>GitHub</element:DropdownMenuItem><element:DropdownMenuItem>Support</element:DropdownMenuItem><element:DropdownMenuItem>API</element:DropdownMenuItem><element:DropdownMenuSeparator></element:DropdownMenuSeparator><element:DropdownMenuItem>Log out<element:DropdownMenuShortcut>⇧⌘Q</element:DropdownMenuShortcut></element:DropdownMenuItem></element:DropdownMenuContent></element:DropdownMenu>",
+            es: "Hola<element:DropdownMenu><element:DropdownMenuTrigger><element:Button>Abrir</element:Button></element:DropdownMenuTrigger><element:DropdownMenuContent><element:DropdownMenuLabel>Mi cuenta</element:DropdownMenuLabel><element:DropdownMenuGroup><element:DropdownMenuItem>Perfil<element:DropdownMenuShortcut>⇧⌘P</element:DropdownMenuShortcut></element:DropdownMenuItem><element:DropdownMenuItem>Facturación<element:DropdownMenuShortcut>⌘B</element:DropdownMenuShortcut></element:DropdownMenuItem><element:DropdownMenuItem>Configuración<element:DropdownMenuShortcut>⌘S</element:DropdownMenuShortcut></element:DropdownMenuItem><element:DropdownMenuItem>Atajos de teclado<element:DropdownMenuShortcut>⌘K</element:DropdownMenuShortcut></element:DropdownMenuItem></element:DropdownMenuGroup><element:DropdownMenuSeparator></element:DropdownMenuSeparator><element:DropdownMenuGroup><element:DropdownMenuItem>Equipo</element:DropdownMenuItem><element:DropdownMenuSub><element:DropdownMenuSubTrigger>Invitar usuarios</element:DropdownMenuSubTrigger><element:DropdownMenuPortal><element:DropdownMenuSubContent><element:DropdownMenuItem>Email</element:DropdownMenuItem><element:DropdownMenuItem>Mensaje</element:DropdownMenuItem><element:DropdownMenuSeparator></element:DropdownMenuSeparator><element:DropdownMenuItem>Más...</element:DropdownMenuItem></element:DropdownMenuSubContent></element:DropdownMenuPortal></element:DropdownMenuSub><element:DropdownMenuItem>Nuevo equipo<element:DropdownMenuShortcut>⌘+T</element:DropdownMenuShortcut></element:DropdownMenuItem></element:DropdownMenuGroup><element:DropdownMenuSeparator></element:DropdownMenuSeparator><element:DropdownMenuItem>GitHub</element:DropdownMenuItem><element:DropdownMenuItem>Soporte</element:DropdownMenuItem><element:DropdownMenuItem>API</element:DropdownMenuItem><element:DropdownMenuSeparator></element:DropdownMenuSeparator><element:DropdownMenuItem>Cerrar sesión<element:DropdownMenuShortcut>⇧⌘Q</element:DropdownMenuShortcut></element:DropdownMenuItem></element:DropdownMenuContent></element:DropdownMenu>",
+            fr: "Bonjour<element:DropdownMenu><element:DropdownMenuTrigger><element:Button>Ouvrir</element:Button></element:DropdownMenuTrigger><element:DropdownMenuContent><element:DropdownMenuLabel>Mon compte</element:DropdownMenuLabel><element:DropdownMenuGroup><element:DropdownMenuItem>Profil<element:DropdownMenuShortcut>⇧⌘P</element:DropdownMenuShortcut></element:DropdownMenuItem><element:DropdownMenuItem>Facturation<element:DropdownMenuShortcut>⌘B</element:DropdownMenuShortcut></element:DropdownMenuItem><element:DropdownMenuItem>Paramètres<element:DropdownMenuShortcut>⌘S</element:DropdownMenuShortcut></element:DropdownMenuItem><element:DropdownMenuItem>Raccourcis clavier<element:DropdownMenuShortcut>⌘K</element:DropdownMenuShortcut></element:DropdownMenuItem></element:DropdownMenuGroup><element:DropdownMenuSeparator></element:DropdownMenuSeparator><element:DropdownMenuGroup><element:DropdownMenuItem>Équipe</element:DropdownMenuItem><element:DropdownMenuSub><element:DropdownMenuSubTrigger>Inviter des utilisateurs</element:DropdownMenuSubTrigger><element:DropdownMenuPortal><element:DropdownMenuSubContent><element:DropdownMenuItem>E-mail</element:DropdownMenuItem><element:DropdownMenuItem>Message</element:DropdownMenuItem><element:DropdownMenuSeparator></element:DropdownMenuSeparator><element:DropdownMenuItem>Plus...</element:DropdownMenuItem></element:DropdownMenuSubContent></element:DropdownMenuPortal></element:DropdownMenuSub><element:DropdownMenuItem>Nouvelle équipe<element:DropdownMenuShortcut>⌘+T</element:DropdownMenuShortcut></element:DropdownMenuItem></element:DropdownMenuGroup><element:DropdownMenuSeparator></element:DropdownMenuSeparator><element:DropdownMenuItem>GitHub</element:DropdownMenuItem><element:DropdownMenuItem>Support</element:DropdownMenuItem><element:DropdownMenuItem>API</element:DropdownMenuItem><element:DropdownMenuSeparator></element:DropdownMenuSeparator><element:DropdownMenuItem>Se déconnecter<element:DropdownMenuShortcut>⇧⌘Q</element:DropdownMenuShortcut></element:DropdownMenuItem></element:DropdownMenuContent></element:DropdownMenu>",
+          },
+          hash: "f462de38662f81b8b9481977eec5e84a",
+        },
+        "3/0/init/body/0/argument/1/1": {
+          content: {
+            de: "Öffnen",
+            en: "Open",
+            es: "Abrir",
+            fr: "Ouvrir",
+          },
+          hash: "9a8c3b16091ea6cef3f771fc6715ab67",
+        },
+        "3/0/init/body/0/argument/3/1": {
+          content: {
+            de: "Mein Konto",
+            en: "My Account",
+            es: "Mi cuenta",
+            fr: "Mon compte",
+          },
+          hash: "46fc42ee20d1f96fdb432348a6815bd3",
+        },
+        "3/0/init/body/0/argument/3/11": {
+          content: {
+            de: "GitHub",
+            en: "GitHub",
+            es: "GitHub",
+            fr: "GitHub",
+          },
+          hash: "6e1cf3c00fa6fbe24afcc78ea3b5f3e4",
+        },
+        "3/0/init/body/0/argument/3/13": {
+          content: {
+            de: "Support",
+            en: "Support",
+            es: "Soporte",
+            fr: "Support",
+          },
+          hash: "55aab5fd0f31a9cb055a2edeeedfaf63",
+        },
+        "3/0/init/body/0/argument/3/15": {
+          content: {
+            de: "API",
+            en: "API",
+            es: "API",
+            fr: "API",
+          },
+          hash: "01d9819514e27056dcc69463194b63d2",
+        },
+        "3/0/init/body/0/argument/3/19": {
+          content: {
+            de: "Abmelden<element:DropdownMenuShortcut>⇧⌘Q</element:DropdownMenuShortcut>",
+            en: "Log out<element:DropdownMenuShortcut>⇧⌘Q</element:DropdownMenuShortcut>",
+            es: "Cerrar sesión<element:DropdownMenuShortcut>⇧⌘Q</element:DropdownMenuShortcut>",
+            fr: "Se déconnecter<element:DropdownMenuShortcut>⇧⌘Q</element:DropdownMenuShortcut>",
+          },
+          hash: "d3065724811084c6c9618a7e5ba41ea7",
+        },
+        "3/0/init/body/0/argument/3/3/1": {
+          content: {
+            de: "Profil<element:DropdownMenuShortcut>⇧⌘P</element:DropdownMenuShortcut>",
+            en: "Profile<element:DropdownMenuShortcut>⇧⌘P</element:DropdownMenuShortcut>",
+            es: "Perfil<element:DropdownMenuShortcut>⇧⌘P</element:DropdownMenuShortcut>",
+            fr: "Profil<element:DropdownMenuShortcut>⇧⌘P</element:DropdownMenuShortcut>",
+          },
+          hash: "708aa5194786082dd46dd8614eca7144",
+        },
+        "3/0/init/body/0/argument/3/3/3": {
+          content: {
+            de: "Abrechnung<element:DropdownMenuShortcut>⌘B</element:DropdownMenuShortcut>",
+            en: "Billing<element:DropdownMenuShortcut>⌘B</element:DropdownMenuShortcut>",
+            es: "Facturación<element:DropdownMenuShortcut>⌘B</element:DropdownMenuShortcut>",
+            fr: "Facturation<element:DropdownMenuShortcut>⌘B</element:DropdownMenuShortcut>",
+          },
+          hash: "2e09dd00b57ab8bed52d66f394b3b037",
+        },
+        "3/0/init/body/0/argument/3/3/5": {
+          content: {
+            de: "Einstellungen<element:DropdownMenuShortcut>⌘S</element:DropdownMenuShortcut>",
+            en: "Settings<element:DropdownMenuShortcut>⌘S</element:DropdownMenuShortcut>",
+            es: "Configuración<element:DropdownMenuShortcut>⌘S</element:DropdownMenuShortcut>",
+            fr: "Paramètres<element:DropdownMenuShortcut>⌘S</element:DropdownMenuShortcut>",
+          },
+          hash: "c5e4d52e7916dc0142a498e03f97ccb9",
+        },
+        "3/0/init/body/0/argument/3/3/7": {
+          content: {
+            de: "Tastaturkürzel<element:DropdownMenuShortcut>⌘K</element:DropdownMenuShortcut>",
+            en: "Keyboard shortcuts<element:DropdownMenuShortcut>⌘K</element:DropdownMenuShortcut>",
+            es: "Atajos de teclado<element:DropdownMenuShortcut>⌘K</element:DropdownMenuShortcut>",
+            fr: "Raccourcis clavier<element:DropdownMenuShortcut>⌘K</element:DropdownMenuShortcut>",
+          },
+          hash: "f04b63ac96bc3f4c00dfe76e42aa01b3",
+        },
+        "3/0/init/body/0/argument/3/7/1": {
+          content: {
+            de: "Team",
+            en: "Team",
+            es: "Equipo",
+            fr: "Équipe",
+          },
+          hash: "c621ea9404a37af289def443b309bf1b",
+        },
+        "3/0/init/body/0/argument/3/7/3/1": {
+          content: {
+            de: "Benutzer einladen",
+            en: "Invite users",
+            es: "Invitar usuarios",
+            fr: "Inviter des utilisateurs",
+          },
+          hash: "4fba46198067a955d532d6d69cd59bc8",
+        },
+        "3/0/init/body/0/argument/3/7/3/3/1/1": {
+          content: {
+            de: "E-Mail",
+            en: "Email",
+            es: "Correo electrónico",
+            fr: "Email",
+          },
+          hash: "e7f34943a0c2fb849db1839ff6ef5cb5",
+        },
+        "3/0/init/body/0/argument/3/7/3/3/1/3": {
+          content: {
+            de: "Nachricht",
+            en: "Message",
+            es: "Mensaje",
+            fr: "Message",
+          },
+          hash: "f2f72126bd244cfc534eab395e054362",
+        },
+        "3/0/init/body/0/argument/3/7/3/3/1/7": {
+          content: {
+            de: "Mehr...",
+            en: "More...",
+            es: "Más...",
+            fr: "Plus...",
+          },
+          hash: "c94a4b3e1d1e8454ea86e8644892d986",
+        },
+        "3/0/init/body/0/argument/3/7/5": {
+          content: {
+            de: "Neues Team<element:DropdownMenuShortcut>⌘+T</element:DropdownMenuShortcut>",
+            en: "New Team<element:DropdownMenuShortcut>⌘+T</element:DropdownMenuShortcut>",
+            es: "Nuevo equipo<element:DropdownMenuShortcut>⌘+T</element:DropdownMenuShortcut>",
+            fr: "Nouvelle équipe<element:DropdownMenuShortcut>⌘+T</element:DropdownMenuShortcut>",
+          },
+          hash: "083734f5028ffc6fc6806b0ee5ae50fb",
+        },
+        "5/0/init/body/6/argument/1/1-alt": {
+          content: {
+            de: "Benutzeravatar",
+            en: "User Avatar",
+            es: "Avatar del usuario",
+            fr: "Avatar de l'utilisateur",
+          },
+          hash: "822d49fc87e60859da3824d26f7d1ae1",
+        },
+        "5/0/init/body/6/argument/3/expression/right/3": {
+          content: {
+            de: "Abmelden",
+            en: "Logout",
+            es: "Cerrar sesión",
+            fr: "Déconnexion",
+          },
+          hash: "ba4b7f66fc625d79f9385f00be18bd53",
+        },
+        "5/0/init/body/7/argument/1/1-alt": {
+          content: {
+            de: "Benutzeravatar",
+            en: "User Avatar",
+            es: "Avatar del usuario",
+            fr: "Avatar de l'utilisateur",
+          },
+          hash: "822d49fc87e60859da3824d26f7d1ae1",
+        },
+        "5/0/init/body/7/argument/3/expression/right/5": {
+          content: {
+            de: "Abmelden",
+            en: "Logout",
+            es: "Cerrar sesión",
+            fr: "Déconnexion",
+          },
+          hash: "ba4b7f66fc625d79f9385f00be18bd53",
+        },
+        "6/0/init/body/5/argument/3/expression/right/5/3": {
+          content: {
+            de: "Abmelden",
+            en: "Logout",
+            es: "Cerrar sesión",
+            fr: "Déconnexion",
+          },
+          hash: "07948fdf20705e04a7bf68ab197512bf",
+        },
+        "6/0/init/body/7/argument/3/expression/right/5": {
+          content: {
+            de: "Abmelden",
+            en: "Logout",
+            es: "Cerrar sesión",
+            fr: "Déconnexion",
+          },
+          hash: "ba4b7f66fc625d79f9385f00be18bd53",
+        },
+      },
+    },
     "../components/Navbar/index.tsx": {
       entries: {
         "1/0/init/body/0/argument": {
@@ -877,6 +1321,60 @@ export default {
           hash: "1d5f030c4ec9c869e647ae060518b948",
         },
         "5/0/init/body/0/argument/1/1/3/5/1": {
+          content: {
+            de: "Jetzt starten",
+            en: "Get Started",
+            es: "Comenzar",
+            fr: "Commencer",
+          },
+          hash: "1d5f030c4ec9c869e647ae060518b948",
+        },
+        "6/0/init/body/1/argument/1/1/1/1": {
+          content: {
+            de: "OnchainWizard",
+            en: "OnchainWizard",
+            es: "OnchainWizard",
+            fr: "OnchainWizard",
+          },
+          hash: "a27078f824adbcc0bec4fed60463ce98",
+        },
+        "6/0/init/body/1/argument/1/1/3/5/1": {
+          content: {
+            de: "Jetzt starten",
+            en: "Get Started",
+            es: "Comenzar",
+            fr: "Commencer",
+          },
+          hash: "1d5f030c4ec9c869e647ae060518b948",
+        },
+        "6/0/init/body/1/argument/1/1/3/5/expression/alternate/1": {
+          content: {
+            de: "Jetzt starten",
+            en: "Get Started",
+            es: "Comenzar",
+            fr: "Commencer",
+          },
+          hash: "1d5f030c4ec9c869e647ae060518b948",
+        },
+        "6/0/init/body/1/argument/1/1/3/5/expression/consequent": {
+          content: {
+            de: "Angemeldet!",
+            en: "Logged in!",
+            es: "¡Sesión iniciada!",
+            fr: "Connecté !",
+          },
+          hash: "0959a2dfd60905b6dc76da4e4edc6949",
+        },
+        "7/0/init/body/1/argument/1/1/1/1": {
+          content: {
+            de: "OnchainWizard",
+            en: "OnchainWizard",
+            es: "OnchainWizard",
+            fr: "OnchainWizard",
+          },
+          hash: "a27078f824adbcc0bec4fed60463ce98",
+        },
+        "7/0/init/body/1/argument/1/1/3/5/expression/alternate/1": {
           content: {
             de: "Jetzt starten",
             en: "Get Started",

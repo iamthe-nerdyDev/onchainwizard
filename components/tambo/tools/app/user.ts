@@ -76,13 +76,7 @@ type Wallet = {
 
 export const getUserWalletSchema = z
   .function()
-  .args(
-    z
-      .void()
-      .describe(
-        "No input parameters required - uses authenticated user context"
-      )
-  )
+  .args()
   .returns(
     z
       .object({

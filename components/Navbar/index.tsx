@@ -3,8 +3,12 @@ import Link from "next/link";
 import React from "react";
 import { Button } from "../ui/button";
 import CustomLocaleSwitcher from "../CustomLocaleSwitcher";
+import session from "@/lib/middleware/session";
+import AuthButton from "./AuthButton";
 
-const NavBar = () => {
+const NavBar = async () => {
+  const userId = await session();
+
   return (
     <nav>
       <div className="container mx-auto">
@@ -17,14 +21,18 @@ const NavBar = () => {
           <div className="flex items-center gap-3">
             <CustomLocaleSwitcher />
             <span className="w-[1px] h-7 bg-gray-400" />
-            <Button
-              asChild
-              size={"default"}
-              variant={"default"}
-              className="bg-black text-white hover:bg-gray-800"
-            >
-              <Link href="/login">Get Started</Link>
-            </Button>
+            {userId ? (
+              <AuthButton />
+            ) : (
+              <Button
+                asChild
+                size={"default"}
+                variant={"default"}
+                className="bg-black text-white hover:bg-gray-800"
+              >
+                <Link href="/login">Get Started</Link>
+              </Button>
+            )}
           </div>
         </div>
       </div>

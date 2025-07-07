@@ -53,7 +53,7 @@ export function LoginForm({
     });
 
     if (response?.ok) {
-      router.push("/checklist");
+      router.push("/chat");
     } else {
       toast.error(response?.error || "Could not complete request!");
     }
