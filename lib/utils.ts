@@ -1,5 +1,6 @@
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
+import qs from "querystring";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -21,4 +22,16 @@ export const generateOTP = (length: number) => {
  */
 export function getExpiryDate(ttl: number) {
   return new Date(Date.now() + ttl * 60 * 1000).toISOString();
+}
+
+export function toQueryString(obj?: Record<string, any>) {
+  if (!obj) return "";
+
+  const query = Object.fromEntries(
+    Object.entries(obj).filter(
+      ([_, value]) => value !== undefined && value !== null && value !== ""
+    )
+  );
+
+  return qs.stringify(query);
 }

@@ -1,6 +1,6 @@
 import AppClient from "../client";
 import { z } from "zod";
-import qs from "querystring";
+import { toQueryString } from "@/lib/utils";
 
 const client = new AppClient().getInstance();
 
@@ -145,7 +145,7 @@ export const getPumpFunBondingTokens = async (filter: {
   limit?: number;
   cursor?: string;
 }) => {
-  const query = qs.stringify(filter);
+  const query = toQueryString(filter);
   const { error, message, data } = await client.get(
     `/moralis/pumpfun/bonding?${query}`
   );
@@ -265,7 +265,7 @@ export const getPumpFunGraduatedTokens = async (filter: {
   limit?: number;
   cursor?: string;
 }) => {
-  const query = qs.stringify(filter);
+  const query = toQueryString(filter);
   const { error, message, data } = await client.get(
     `/moralis/pumpfun/graduated?${query}`
   );
@@ -385,7 +385,7 @@ export const getPumpFunLatestTokens = async (filter: {
   limit?: number;
   cursor?: string;
 }) => {
-  const query = qs.stringify(filter);
+  const query = toQueryString(filter);
   const { error, message, data } = await client.get(
     `/moralis/pumpfun/latest?${query}`
   );

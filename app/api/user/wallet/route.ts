@@ -1,6 +1,6 @@
 import { UnauthorizedError } from "@/lib/adapters/errors";
-import { OnchainWallet } from "@/lib/adapters/onchainwallet";
 import prisma from "@/lib/adapters/prisma";
+import Wallet from "@/lib/adapters/wallet";
 import session from "@/lib/middleware/session";
 import processError from "@/lib/processError";
 import { omit } from "lodash";
@@ -13,7 +13,7 @@ export async function GET(_req: NextRequest) {
 
     let wallet = await prisma.wallet.findFirst({ where: { userId } });
     if (!wallet) {
-      const { encryptedPK, publicKey } = OnchainWallet.createKey();
+      const { encryptedPK, publicKey } = Wallet.createKey();
       wallet = await prisma.wallet.create({
         data: {
           address: publicKey,

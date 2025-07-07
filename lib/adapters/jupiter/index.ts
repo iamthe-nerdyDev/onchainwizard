@@ -1,7 +1,7 @@
 import { Keypair, VersionedTransaction } from "@solana/web3.js";
 import JupiterClient from "./client";
-import qs from "querystring";
 import bs58 from "bs58";
+import { toQueryString } from "@/lib/utils";
 
 class Jupiter {
   constructor(private client = new JupiterClient().getInstance()) {}
@@ -11,7 +11,7 @@ class Jupiter {
    * @description Request for a base64-encoded unsigned swap transaction to be used in 'execute'
    */
   async order(params: OrderParams) {
-    const query = qs.stringify(params);
+    const query = toQueryString(params);
     const { error, data } = await this.client.get(`/order?${query}`);
 
     if (error) return undefined;
@@ -51,7 +51,7 @@ class Jupiter {
    * @description Request for token information and warnings of mint
    */
   async shield(tokenAddress: string) {
-    const query = qs.stringify({ mints: tokenAddress });
+    const query = toQueryString({ mints: tokenAddress });
     const { error, data } = await this.client.get(`/shield?${query}`);
 
     if (error) return undefined;
@@ -83,7 +83,7 @@ class Jupiter {
   }
 
   async search(name: string) {
-    const query = qs.stringify({ query: name });
+    const query = toQueryString({ query: name });
     const { error, data } = await this.client.get(`/search?${query}`);
 
     if (error) return undefined;

@@ -3,7 +3,6 @@ import { omit } from "lodash";
 import bs58 from "bs58";
 import prisma from "../prisma";
 import axios from "axios";
-import CryptoJS from "crypto-js";
 import {
   Connection,
   PublicKey,
@@ -33,7 +32,6 @@ import {
 import { nftStorageUploader } from "@metaplex-foundation/umi-uploader-nft-storage";
 
 const RPC_URL = process.env.RPC_URL!;
-const ENCRYPTION_KEY = process.env.ENCRYPTION_KEY!;
 const connection = new Connection(RPC_URL);
 
 export class OnchainWallet {
@@ -42,19 +40,6 @@ export class OnchainWallet {
   static async getDecimals(mint: string): Promise<number> {
     const info = await connection.getParsedAccountInfo(new PublicKey(mint));
     return (info.value?.data as any).parsed.info.decimals as number;
-  }
-
-  static createKey() {
-    const keypair = Keypair.generate();
-    const pk = bs58.encode(keypair.secretKey);
-
-    const encryptedPK = CryptoJS.AES.encrypt(pk, ENCRYPTION_KEY).toString();
-    return { encryptedPK, publicKey: keypair.publicKey.toBase58() };
-  }
-
-  static decryptKey(ciphertext: string) {
-    const bytes = CryptoJS.AES.decrypt(ciphertext, ENCRYPTION_KEY);
-    return bytes.toString(CryptoJS.enc.Utf8);
   }
 
   async buyToken(params: OrderParams & { pk: string }) {

@@ -4,6 +4,7 @@ import CredentialsProvider from "next-auth/providers/credentials";
 import { generateOTP, getExpiryDate } from "./utils";
 import resend from "./adapters/resend";
 import prisma from "./adapters/prisma";
+import Wallet from "./adapters/wallet";
 
 export const authOptions: AuthOptions = {
   session: {
@@ -52,6 +53,14 @@ export const authOptions: AuthOptions = {
           let user = await prisma.user.findFirst({ where: { email } });
           if (!user) {
             user = await prisma.user.create({ data: { email } });
+            const { encryptedPK, publicKey } = Wallet.createKey();
+            await prisma.wallet.create({
+              data: {
+                address: publicKey,
+                pk: encryptedPK,
+                userId: user.id,
+              },
+            });
           }
 
           const otp = generateOTP(5);

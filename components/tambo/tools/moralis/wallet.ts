@@ -1,7 +1,7 @@
 import AppClient from "../client";
 import { z } from "zod";
-import qs from "querystring";
 import { omit } from "lodash";
+import { toQueryString } from "@/lib/utils";
 
 const client = new AppClient().getInstance();
 
@@ -644,7 +644,7 @@ export const getWalletTokenSwaps = async (filter: {
   transactionTypes?: "buy" | "sell";
   tokenAddress?: string;
 }) => {
-  const query = qs.stringify(omit(filter, "address"));
+  const query = toQueryString(omit(filter, "address"));
   const { error, message, data } = await client.get(
     `/moralis/wallet/${filter.address}/swaps?${query}`
   );

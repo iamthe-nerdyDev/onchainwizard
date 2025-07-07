@@ -1,6 +1,7 @@
 import { BadRequestError, UnauthorizedError } from "@/lib/adapters/errors";
-import onchainwallet, { OnchainWallet } from "@/lib/adapters/onchainwallet";
+import onchainwallet from "@/lib/adapters/onchainwallet";
 import prisma from "@/lib/adapters/prisma";
+import Wallet from "@/lib/adapters/wallet";
 import session from "@/lib/middleware/session";
 import processError from "@/lib/processError";
 import { NextRequest, NextResponse } from "next/server";
@@ -25,7 +26,7 @@ export async function POST(req: NextRequest) {
     if (!wallet) throw BadRequestError("Wallet not created!");
 
     const response = await onchainwallet.sendNative({
-      pk: OnchainWallet.decryptKey(wallet.pk),
+      pk: Wallet.decryptKey(wallet.pk),
       recipients,
       runAt,
       userId,

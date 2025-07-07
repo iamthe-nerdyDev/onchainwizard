@@ -1,7 +1,7 @@
 import { omit } from "lodash";
 import AppClient from "../client";
-import qs from "querystring";
 import { z } from "zod";
+import { toQueryString } from "@/lib/utils";
 
 const client = new AppClient().getInstance();
 
@@ -166,7 +166,7 @@ export const getOHLVCByPairAddress = async (filter: {
   limit?: number;
   cursor?: string;
 }) => {
-  const query = qs.stringify(omit(filter, "pairAddress"));
+  const query = toQueryString(omit(filter, "pairAddress"));
   const { error, message, data } = await client.get(
     `/moralis/pair/${filter.pairAddress}/ohlvc?${query}`
   );
@@ -347,7 +347,7 @@ export const getPairSnipers = async (filter: {
   address: string;
   blocksAfterCreation?: number;
 }) => {
-  const query = qs.stringify(omit(filter, "address"));
+  const query = toQueryString(omit(filter, "address"));
   const { error, message, data } = await client.get(
     `/moralis/pair/${filter.address}/snipers?${query}`
   );
@@ -768,7 +768,7 @@ export const getPairAddressTransactions = async (filter: {
   limit?: number;
   cursor?: string;
 }) => {
-  const query = qs.stringify(omit(filter, "pairAddress"));
+  const query = toQueryString(omit(filter, "pairAddress"));
   const { error, message, data } = await client.get(
     `/moralis/pair/${filter.pairAddress}/transactions?${query}`
   );

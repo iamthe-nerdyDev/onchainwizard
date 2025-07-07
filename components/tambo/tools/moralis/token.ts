@@ -1,7 +1,7 @@
 import AppClient from "../client";
 import { z } from "zod";
-import qs from "querystring";
 import { omit } from "lodash";
+import { toQueryString } from "@/lib/utils";
 
 const client = new AppClient().getInstance();
 
@@ -580,7 +580,7 @@ export const getTokenTopHolders = async (filter: {
   limit?: number;
   cursor?: string;
 }) => {
-  const query = qs.stringify(omit(filter, "tokenAddress"));
+  const query = toQueryString(omit(filter, "tokenAddress"));
   const { error, message, data } = await client.get(
     `/moralis/token/${filter.tokenAddress}/top-holders?${query}`
   );
@@ -887,7 +887,7 @@ export const getTokenPairs = async (filter: {
   limit?: number;
   cursor?: string;
 }) => {
-  const query = qs.stringify(omit(filter, "tokenAddress"));
+  const query = toQueryString(omit(filter, "tokenAddress"));
   const { error, message, data } = await client.get(
     `/moralis/token/${filter.tokenAddress}/pairs?${query}`
   );
@@ -1071,7 +1071,7 @@ export const getTokenSwaps = async (filter: {
   order?: "ASC" | "DESC";
   transactionTypes?: "buy" | "sell";
 }) => {
-  const query = qs.stringify(omit(filter, "tokenAddress"));
+  const query = toQueryString(omit(filter, "tokenAddress"));
   const { error, message, data } = await client.get(
     `/moralis/token/${filter.tokenAddress}/swaps?${query}`
   );

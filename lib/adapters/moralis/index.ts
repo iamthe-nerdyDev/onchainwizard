@@ -1,6 +1,6 @@
 import type { AxiosInstance } from "axios";
 import MoralisClient from "./client";
-import qs from "querystring";
+import { toQueryString } from "@/lib/utils";
 
 enum Networks {
   MAINNET = "mainnet",
@@ -56,7 +56,7 @@ class Token {
    * @description Returns a list of newly created tokens on pump(dot)fun
    */
   async getLatestPumpFunTokens(limit = 20, cursor?: string) {
-    const query = qs.stringify({ limit, cursor });
+    const query = toQueryString({ limit, cursor });
     const { error, data } = await this.client.get(
       `/token/${network}/exchange/pumpfun/new?${query}`
     );
@@ -75,7 +75,7 @@ class Token {
    * @description Returns a list of tokens currently in the bonding phase on pump(dot)fun
    */
   async getBondingPumpFunTokens(limit = 20, cursor?: string) {
-    const query = qs.stringify({ limit, cursor });
+    const query = toQueryString({ limit, cursor });
     const { error, data } = await this.client.get(
       `/token/${network}/exchange/pumpfun/bonding?${query}`
     );
@@ -94,7 +94,7 @@ class Token {
    * @description Returns a list of tokens that have graduated (completed bonding phase) on pump(dot)fun
    */
   async getGraduatedPumpFunTokens(limit = 20, cursor?: string) {
-    const query = qs.stringify({ limit, cursor });
+    const query = toQueryString({ limit, cursor });
     const { error, data } = await this.client.get(
       `/token/${network}/exchange/pumpfun/graduated?${query}`
     );
@@ -126,7 +126,7 @@ class Token {
    * @description Get a list of top token holders for a specific Solana token address
    */
   async getTokenTopHolders(tokenAddress: string, limit = 20, cursor?: string) {
-    const query = qs.stringify({ limit, cursor });
+    const query = toQueryString({ limit, cursor });
     const { error, data } = await this.client.get(
       `/token/${network}/${tokenAddress}/top-holders?${query}`
     );
@@ -169,7 +169,7 @@ class Token {
       transactionTypes?: "buy" | "sell" | "addLiquidity" | "removeLiquidity";
     }
   ) {
-    const query = qs.stringify(filter);
+    const query = toQueryString(filter);
     const { error, data } = await this.client.get(
       `/token/${network}/pairs/${pairAddress}/swaps?${query}`
     );
@@ -217,7 +217,7 @@ class Token {
       transactionTypes?: "buy" | "sell";
     }
   ) {
-    const query = qs.stringify(filter);
+    const query = toQueryString(filter);
     const { error, data } = await this.client.get(
       `/token/${network}/${tokenAddress}/swaps?${query}`
     );
@@ -247,7 +247,7 @@ class Token {
       tokenAddress?: string;
     }
   ) {
-    const query = qs.stringify(filter);
+    const query = toQueryString(filter);
     const { error, data } = await this.client.get(
       `/account/${network}/${address}/swaps?${query}`
     );
@@ -269,7 +269,7 @@ class Token {
     tokenAddress: string,
     filter: { cursor?: string; limit?: number }
   ) {
-    const query = qs.stringify(filter);
+    const query = toQueryString(filter);
     const { error, data } = await this.client.get(
       `/token/${network}/${tokenAddress}/pairs?${query}`
     );
@@ -350,7 +350,8 @@ class Token {
       cursor?: string;
     }
   ) {
-    const query = qs.stringify(filter);
+    const query = toQueryString(filter);
+    console.log(query);
     const { error, data } = await this.client.get(
       `/token/${network}/pairs/${pairAddress}/ohlcv?${query}`
     );
@@ -375,7 +376,7 @@ class Token {
     pairAddress: string,
     filter?: { blocksAfterCreation: number }
   ) {
-    const query = qs.stringify(filter);
+    const query = toQueryString(filter);
     const { error, data } = await this.client.get(
       `/token/${network}/pairs/${pairAddress}/snipers?${query}`
     );
@@ -398,7 +399,7 @@ class NFT {
    * @description Gets NFTs owned by a given address.
    */
   async getNFTsByWallet(address: string) {
-    const query = qs.stringify({
+    const query = toQueryString({
       nftMetadata: true,
       mediaItems: true,
       excludeSpam: false,
