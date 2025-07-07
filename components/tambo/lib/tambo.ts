@@ -14,6 +14,9 @@
 import type { TamboComponent } from "@tambo-ai/react";
 import { TamboTool } from "@tambo-ai/react";
 import { z } from "zod";
+import { moralisTools } from "../tools/moralis.tools";
+import { onchainTools } from "../tools/onchain.tools";
+import { appTools } from "../tools/app.tools";
 
 /**
  * Components Array - A collection of Tambo components to register
@@ -50,4 +53,8 @@ export const components: TamboComponent[] = [];
  * Each tool is defined with its name, description, and expected props. The tools
  * can be controlled by AI to dynamically fetch data based on user interactions.
  */
-export const tools: TamboTool[] = [];
+export const tools: TamboTool[] = [
+  ...moralisTools,
+  ...onchainTools,
+  ...appTools,
+];

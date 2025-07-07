@@ -6,7 +6,7 @@ import processError from "@/lib/processError";
 import { omit } from "lodash";
 import { NextRequest, NextResponse } from "next/server";
 
-export async function POST(_req: NextRequest) {
+export async function GET(_req: NextRequest) {
   try {
     const userId = await session();
     if (!userId) throw UnauthorizedError();

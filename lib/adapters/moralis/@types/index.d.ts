@@ -204,38 +204,38 @@ type TokenSwap = {
 };
 
 type TokenPair = {
-  exchangeAddress: "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8";
-  exchangeName: "Raydium AMM v4";
-  exchangeLogo: "https://entities-logos.s3.amazonaws.com/raydium.png";
-  pairAddress: "8tzS7SkUZyHPQY7gLqsMCXZ5EDCgjESUHcB17tiR1h3Z";
-  pairLabel: "SRM/USDC";
-  usdPrice: 0.012604;
-  usdPrice24hrPercentChange: -1.6848673946957815;
-  usdPrice24hrUsdChange: -0.00021599999999999918;
-  volume24hrNative: 13.243716;
-  volume24hrUsd: 1960.062178;
-  liquidityUsd: 63106.897187;
-  baseToken: "SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt";
-  quoteToken: "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v";
+  exchangeAddress: string;
+  exchangeName: string;
+  exchangeLogo: string;
+  pairAddress: string;
+  pairLabel: string;
+  usdPrice: number;
+  usdPrice24hrPercentChange: number;
+  usdPrice24hrUsdChange: number;
+  volume24hrNative: number;
+  volume24hrUsd: number;
+  liquidityUsd: number;
+  baseToken: string;
+  quoteToken: string;
   inactivePair: false;
   pair: [
     {
-      tokenAddress: "SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt";
-      tokenName: "Serum";
-      tokenSymbol: "SRM";
-      tokenLogo: "https://logo.moralis.io/solana-mainnet_SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt_e7445e31c3869105.webp";
-      tokenDecimals: "6";
-      pairTokenType: "token0";
-      liquidityUsd: 31589.725586;
+      tokenAddress: string;
+      tokenName: string;
+      tokenSymbol: string;
+      tokenLogo: string;
+      tokenDecimals: string;
+      pairTokenType: "token0" | "token1";
+      liquidityUsd: number;
     },
     {
-      tokenAddress: "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v";
-      tokenName: "USD Coin";
-      tokenSymbol: "USDC";
-      tokenLogo: "https://logo.moralis.io/solana-mainnet_EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v_809d0dcb3d691dcff4b688115e11652c.webp";
-      tokenDecimals: "6";
-      pairTokenType: "token1";
-      liquidityUsd: 31517.171601;
+      tokenAddress: string;
+      tokenName: string;
+      tokenSymbol: string;
+      tokenLogo: string;
+      tokenDecimals: string;
+      pairTokenType: "token0" | "token1";
+      liquidityUsd: number;
     },
   ];
 };
@@ -531,8 +531,7 @@ type WalletNFT = {
     mintBlockNumber: null;
     mintTransaction: null;
   };
-  creators: { address: string; share: numnber; verified: boolean };
-  [];
+  creators: { address: string; share: number; verified: boolean }[];
   properties: {
     creators: { address: string; share: number }[];
     files: { uri: string; type: string }[];

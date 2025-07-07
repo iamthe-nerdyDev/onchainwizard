@@ -2,13 +2,14 @@
 
 import React from "react";
 import { TamboProvider } from "@tambo-ai/react";
-import { components } from "@/components/tambo/lib/tambo";
+import { components, tools } from "@/components/tambo/lib/tambo";
 
 const CustomTamboProvider = ({ children }: { children: React.ReactNode }) => {
   return (
     <TamboProvider
       apiKey={process.env.NEXT_PUBLIC_TAMBO_API_KEY!}
       components={components}
+      tools={tools}
     >
       {children}
     </TamboProvider>

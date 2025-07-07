@@ -7,7 +7,7 @@ export async function GET(_req: NextRequest, { params }: any) {
   try {
     const { address } = await params;
     const nft = await moralis.nft.getNFT(address);
-    if (!nft) throw BadRequestError("Could not nft");
+    if (!nft) throw BadRequestError("Could not get nft");
 
     return NextResponse.json(
       {
