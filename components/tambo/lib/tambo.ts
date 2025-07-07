@@ -59,11 +59,11 @@ export const components: TamboComponent[] = [
           z
             .string()
             .describe(
-              "An object, which represents a row with keys matching column definitions."
+              "A JSON-stringified object representing a table row. This string is the result of calling JSON.stringify() on an object where each property key corresponds to a column definition and the value is the cell data for that column."
             )
         )
         .describe(
-          "Array of data objects to display in the table. Each object represents a row, with keys matching column definitions. Can be empty array for empty state."
+          "Array of JSON-stringified row objects for table display. Each string element contains a serialized object (via JSON.stringify) representing a table row, with object keys matching column definitions and values containing the cell data. Can be an empty array to represent an empty table state."
         ),
       columns: z
         .array(
