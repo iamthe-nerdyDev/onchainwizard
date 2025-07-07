@@ -65,7 +65,7 @@ export const authOptions: AuthOptions = {
 
           const otp = generateOTP(5);
           await resend.emails.send({
-            from: "OnchainWizard <onboarding@resend.dev>",
+            from: "OnchainWizard <onchainwizard@gamerx.pro>",
             to: email,
             subject: "Login to OnchainWizard",
             html: `
