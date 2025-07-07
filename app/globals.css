@@ -132,11 +132,11 @@
     --chart-3: 219.9 70.2% 50%;
     --chart-4: 160 60% 45.1%;
     --chart-5: 280 64.7% 60%;
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
     --container: 210 29% 97%;
     --backdrop: 210 88% 14% / 0.25;
     --muted-backdrop: 210 88% 14% / 0.1;
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
   }
   .dark {
     --background: 240 10% 3.9%;
@@ -268,8 +268,6 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);

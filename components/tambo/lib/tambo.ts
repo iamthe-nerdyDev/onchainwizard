@@ -18,8 +18,7 @@ import { moralisTools } from "../tools/moralis.tools";
 import { onchainTools } from "../tools/onchain.tools";
 import { appTools } from "../tools/app.tools";
 import Table from "../components/Table";
-import Chart, { ChartPropsSchema } from "../components/Chart";
-import Render from "../components/Render";
+import { Graph } from "../components/Graph";
 
 /**
  * Components Array - A collection of Tambo components to register
@@ -47,25 +46,113 @@ import Render from "../components/Render";
  * ];
  * ```
  */
+
 export const components: TamboComponent[] = [
-  // {
-  //   name: "Table",
-  //   description: "Renders a custom table with the provided data",
-  //   component: Table,
-  //   propsSchema: z.object({}),
-  // },
-  // {
-  //   name: "Chart",
-  //   description: "Renders a custom chart with the provided data",
-  //   component: Chart,
-  //   propsSchema: ChartPropsSchema,
-  // },
-  // {
-  //   name: "Render",
-  //   description: "Renders a custom div to visualize text information better",
-  //   component: Render,
-  //   propsSchema: z.object({}),
-  // },
+  {
+    name: "Table",
+    description:
+      "A versatile table component that can render data on table without having to know what kind of data, it receives a array of data matching the column definitions. Use this when you need to display data in a tabular format.",
+    component: Table,
+    propsSchema: z.object({
+      data: z
+        .array(
+          z
+            .string()
+            .describe(
+              "An object, which represents a row with keys matching column definitions."
+            )
+        )
+        .describe(
+          "Array of data objects to display in the table. Each object represents a row, with keys matching column definitions. Can be empty array for empty state."
+        ),
+      columns: z
+        .array(
+          z.object({
+            key: z
+              .string()
+              .describe(
+                "The property key from the data object that this column represents. Must match a key in your data type."
+              ),
+            header: z
+              .string()
+              .describe(
+                "Display text for the column header. This is what users will see in the table header row."
+              ),
+          })
+        )
+        .describe(
+          "Array of column definitions that specify how to display each data property. Defines headers and data mapping for each column."
+        ),
+      striped: z
+        .boolean()
+        .optional()
+        .default(true)
+        .describe(
+          "Whether to apply alternating row colors (zebra striping). When true, odd rows get light gray background for better readability. Default: true."
+        ),
+      bordered: z
+        .boolean()
+        .optional()
+        .default(true)
+        .describe(
+          "Whether to add borders around the table. When true, adds outer border and rounded corners for a more defined appearance. Default: true."
+        ),
+      hover: z
+        .boolean()
+        .optional()
+        .default(true)
+        .describe(
+          "Whether to add hover effects to table rows. When true, rows change background color on mouse hover for better interaction feedback. Default: true."
+        ),
+    }),
+  },
+  {
+    name: "graph",
+    description:
+      "A versatile chart component that can render bar, line, and pie charts with customizable styling and data visualization options. Use this when you need to display data in a graphical format.",
+    component: Graph,
+    propsSchema: z.object({
+      data: z
+        .object({
+          type: z
+            .enum(["bar", "line", "pie"])
+            .describe("Type of chart to render"),
+          labels: z
+            .array(z.string())
+            .describe("Labels for the x-axis or data points"),
+          datasets: z
+            .array(
+              z.object({
+                label: z.string().describe("Label for the dataset"),
+                data: z.array(z.number()).describe("Array of numerical values"),
+                color: z
+                  .string()
+                  .optional()
+                  .describe("Optional custom color for the dataset"),
+              })
+            )
+            .describe("Array of datasets to display"),
+        })
+        .describe("Data configuration for the chart"),
+      title: z.string().optional().describe("Optional title for the chart"),
+      variant: z
+        .enum(["default", "solid", "bordered"])
+        .optional()
+        .describe("Visual style variant"),
+      size: z
+        .enum(["default", "sm", "lg"])
+        .optional()
+        .describe("Size variant of the chart"),
+      showLegend: z
+        .boolean()
+        .optional()
+        .describe("Whether to show the chart legend"),
+      className: z
+        .string()
+        .optional()
+        .describe("Optional additional CSS classes"),
+    }),
+  },
 ];
 
 /**

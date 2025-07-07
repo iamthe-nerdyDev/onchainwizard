@@ -27,7 +27,7 @@ export const ThreadContainer = React.forwardRef<
   const { isLeftPanel, historyPosition } = usePositioning(
     className,
     canvasIsOnLeft,
-    hasCanvasSpace,
+    hasCanvasSpace
   );
   const mergedRef = useMergedRef<HTMLDivElement | null>(ref, containerRef);
 
@@ -37,7 +37,7 @@ export const ThreadContainer = React.forwardRef<
       className={cn(
         // Base layout and styling
         "flex flex-col bg-white overflow-hidden bg-background",
-        "h-screen",
+        "h-[90vh]",
 
         // Add smooth transitions for layout changes
         "transition-all duration-200 ease-in-out",
@@ -60,7 +60,7 @@ export const ThreadContainer = React.forwardRef<
         !isLeftPanel && "ml-auto",
 
         // Custom classes passed via props
-        className,
+        className
       )}
       {...props}
     >
@@ -86,7 +86,7 @@ export function useThreadContainerContext() {
   const { isLeftPanel, historyPosition } = usePositioning(
     "",
     canvasIsOnLeft,
-    hasCanvasSpace,
+    hasCanvasSpace
   );
 
   return {

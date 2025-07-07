@@ -35,6 +35,10 @@ import type { VariantProps } from "class-variance-authority";
 import React from "react";
 import { useRef } from "react";
 import type { Suggestion } from "@tambo-ai/react";
+import Link from "next/link";
+import { WandIcon } from "lucide-react";
+import AuthButton from "../Navbar/AuthButton";
+import CustomLocaleSwitcher from "../CustomLocaleSwitcher";
 
 /**
  * Props for the MessageThreadPanel component
@@ -56,6 +60,7 @@ export interface MessageThreadPanelProps
    * @example variant="compact"
    */
   variant?: VariantProps<typeof messageVariants>["variant"];
+  userId: number;
 }
 
 /**
@@ -188,7 +193,7 @@ ResizablePanel.displayName = "ResizablePanel";
 export const MessageThreadPanel = React.forwardRef<
   HTMLDivElement,
   MessageThreadPanelProps
->(({ className, contextKey, variant, ...props }, ref) => {
+>(({ className, contextKey, variant, userId, ...props }, ref) => {
   const panelRef = useRef<HTMLDivElement>(null);
   const { hasCanvasSpace, canvasIsOnLeft } = useCanvasDetection(panelRef);
   const { isLeftPanel, historyPosition } = usePositioning(
@@ -236,7 +241,7 @@ export const MessageThreadPanel = React.forwardRef<
               contextKey={contextKey}
               defaultCollapsed={true}
               position="left"
-              className="h-full border-0 border-r border-flat"
+              className="h-full border-0 border-r border-flat z-50"
             >
               <ThreadHistoryHeader />
               <ThreadHistoryNewButton />
@@ -247,18 +252,30 @@ export const MessageThreadPanel = React.forwardRef<
         )}
 
         <div className="flex flex-col h-full flex-grow transition-all duration-300 ease-in-out">
+          {/** Branding here */}
+          <div className="p-4 border-b border-gray-300 flex items-center justify-between">
+            <Link href={"/"} className="flex items-center gap-2">
+              <h2 className="text-lg font-semibold font-mono">OnchainWizard</h2>
+              <WandIcon className="stoke-[1.5]" />
+            </Link>
+
+            <div className="flex items-center gap-3">
+              <CustomLocaleSwitcher />
+              <span className="w-[1px] h-7 bg-gray-400" />
+              <AuthButton userId={userId} />
+            </div>
+          </div>
+
           {/* Message thread content */}
           <ScrollableMessageContainer className="p-4">
             <ThreadContent variant={variant}>
               <ThreadContentMessages />
             </ThreadContent>
           </ScrollableMessageContainer>
-
           {/* Message Suggestions Status */}
           <MessageSuggestions>
             <MessageSuggestionsStatus />
           </MessageSuggestions>
-
           {/* Message input */}
           <div className="p-4">
             <MessageInput contextKey={contextKey}>
@@ -269,7 +286,6 @@ export const MessageThreadPanel = React.forwardRef<
               <MessageInputError />
             </MessageInput>
           </div>
-
           {/* Message suggestions */}
           <MessageSuggestions initialSuggestions={defaultSuggestions}>
             <MessageSuggestionsList />
@@ -285,7 +301,7 @@ export const MessageThreadPanel = React.forwardRef<
               contextKey={contextKey}
               defaultCollapsed={true}
               position="right"
-              className="h-full border-0 border-l border-flat"
+              className="h-full border-0 border-l border-flat z-50"
             >
               <ThreadHistoryHeader />
               <ThreadHistoryNewButton />

@@ -322,9 +322,31 @@ export default {
           },
       },
     },
+    "../app/(main)/contacts/page.tsx": {
+      entries: {
+        "1/0/init/body/0/argument/1": {
+          content: {
+            de: "Kontakte",
+            en: "Contacts",
+            es: "Contactos",
+            fr: "Contacts",
+          },
+          hash: "d5b6c3f890b3904eaf5754081945c03d",
+        },
+      },
+    },
     "../app/(main)/settings/page.tsx": {
       entries: {
         "1/0/init/body/0/argument": {
+          content: {
+            de: "Einstellungen",
+            en: "Settings",
+            es: "Configuración",
+            fr: "Paramètres",
+          },
+          hash: "8df6777277469c1fd88cc18dde2f1cc3",
+        },
+        "1/0/init/body/0/argument/1": {
           content: {
             de: "Einstellungen",
             en: "Settings",
@@ -337,6 +359,15 @@ export default {
     },
     "../app/chat/page.tsx": {
       entries: {
+        "1/0/init/body/0/argument": {
+          content: {
+            de: "Chat",
+            en: "Chat",
+            es: "Chat",
+            fr: "Discussion",
+          },
+          hash: "1171b63c16b3431dca319af1804de2a0",
+        },
         "2/0/init/body/0/argument": {
           content: {
             de: "Chat<element:MessageThreadPanel></element:MessageThreadPanel>",
@@ -345,6 +376,15 @@ export default {
             fr: "Chat<element:MessageThreadPanel></element:MessageThreadPanel>",
           },
           hash: "28b871236139ca03031d165d91fc3347",
+        },
+        "4/0/init/body/0/argument/1/1": {
+          content: {
+            de: "hallo<element:CanvasSpace></element:CanvasSpace>",
+            en: "hello<element:CanvasSpace></element:CanvasSpace>",
+            es: "hola<element:CanvasSpace></element:CanvasSpace>",
+            fr: "bonjour<element:CanvasSpace></element:CanvasSpace>",
+          },
+          hash: "b54daecf4f3db7cf3e4c5d5e259a651f",
         },
       },
     },
@@ -1902,6 +1942,64 @@ export default {
           },
           hash: "2e78e68302636a97589f6e93a9857bde",
         },
+        "6/declaration/body/8/argument/1/1/1/expression/alternate/1/1": {
+          content: {
+            de: "Canvas ist leer",
+            en: "Canvas is empty",
+            es: "El lienzo está vacío",
+            fr: "Le canevas est vide",
+          },
+          hash: "da11fd640a4dee44bcfcaac3f2299972",
+        },
+        "6/declaration/body/8/argument/1/1/1/expression/alternate/1/3": {
+          content: {
+            de: "Interaktive Komponenten werden hier angezeigt, sobald sie generiert werden",
+            en: "Interactive components will appear here as they are generated",
+            es: "Los componentes interactivos aparecerán aquí a medida que se generen",
+            fr: "Les composants interactifs apparaîtront ici au fur et à mesure de leur génération",
+          },
+          hash: "4bbb3196e2f0c727d34fe8f337bf0f39",
+        },
+      },
+    },
+    "../components/tambo/components/Table.tsx": {
+      entries: {
+        "4/body/3/0/init/body/2/consequent/0/argument": {
+          content: {
+            de: "—",
+            en: "—",
+            es: "—",
+            fr: "—",
+          },
+          hash: "7132b30ac6a17094853b52f4be559298",
+        },
+        "4/body/5/0/init/body/2/consequent/0/argument": {
+          content: {
+            de: "?",
+            en: "?",
+            es: "?",
+            fr: "?",
+          },
+          hash: "0fbf24c524b26a0c4558c7a1a83bf92f",
+        },
+        "4/body/6/argument/1/3/1/expression/consequent/1/1/3": {
+          content: {
+            de: "Wird geladen...",
+            en: "Loading...",
+            es: "Cargando...",
+            fr: "Chargement...",
+          },
+          hash: "82b4ea7ed1439094d7c4be13aaba9a66",
+        },
+        "4/body/8/argument/1/3/1/expression/consequent/1/1/3": {
+          content: {
+            de: "Wird geladen...",
+            en: "Loading...",
+            es: "Cargando...",
+            fr: "Chargement...",
+          },
+          hash: "82b4ea7ed1439094d7c4be13aaba9a66",
+        },
       },
     },
     "../components/tambo/markdown-components.tsx": {
@@ -1960,6 +2058,95 @@ export default {
             },
             hash: "f31601e3feba527374d829919cef81af",
           },
+      },
+    },
+    "../components/tambo/message-thread-full.tsx": {
+      entries: {
+        "16/declaration/0/init/0/body/4/argument/5/3/1/1": {
+          content: {
+            de: "OnchainWizard",
+            en: "OnchainWizard",
+            es: "OnchainWizard",
+            fr: "OnchainWizard",
+          },
+          hash: "a27078f824adbcc0bec4fed60463ce98",
+        },
+        "16/declaration/0/init/0/body/4/argument/5/3/1/1/1/1": {
+          content: {
+            de: "OnchainWizard",
+            en: "OnchainWizard",
+            es: "OnchainWizard",
+            fr: "OnchainWizard",
+          },
+          hash: "14a427cc074d44817dd7d69e6af2699a",
+        },
+        "16/declaration/0/init/0/body/4/argument/7/1/1/1/1": {
+          content: {
+            de: "OnchainWizard",
+            en: "OnchainWizard",
+            es: "OnchainWizard",
+            fr: "OnchainWizard",
+          },
+          hash: "a27078f824adbcc0bec4fed60463ce98",
+        },
+        "16/declaration/0/init/0/body/4/argument/7/1/1/1/1/1": {
+          content: {
+            de: "OnchainWizard",
+            en: "OnchainWizard",
+            es: "OnchainWizard",
+            fr: "OnchainWizard",
+          },
+          hash: "14a427cc074d44817dd7d69e6af2699a",
+        },
+        "17/declaration/0/init/0/body/4/argument/7/1/1/1/1/1": {
+          content: {
+            de: "OnchainWizard",
+            en: "OnchainWizard",
+            es: "OnchainWizard",
+            fr: "OnchainWizard",
+          },
+          hash: "14a427cc074d44817dd7d69e6af2699a",
+        },
+      },
+    },
+    "../components/tambo/message-thread-panel.tsx": {
+      entries: {
+        "14/0/init/0/body/4/argument": {
+          content: {
+            de: "<element:div></element:div> hel{children}",
+            en: "<element:div></element:div> hel{children}",
+            es: "<element:div></element:div> hol{children}",
+            fr: "<element:div></element:div> bon{children}",
+          },
+          hash: "a057dff71be91d3e07a83b96fe04b2a6",
+        },
+        "18/declaration/0/init/0/body/5/argument/1/3/3/1/1": {
+          content: {
+            de: "OnchainWizard",
+            en: "OnchainWizard",
+            es: "OnchainWizard",
+            fr: "OnchainWizard",
+          },
+          hash: "a27078f824adbcc0bec4fed60463ce98",
+        },
+        "19/declaration/0/init/0/body/5/argument/1/3/3/1/1": {
+          content: {
+            de: "OnchainWizard",
+            en: "OnchainWizard",
+            es: "OnchainWizard",
+            fr: "OnchainWizard",
+          },
+          hash: "a27078f824adbcc0bec4fed60463ce98",
+        },
+        "20/declaration/0/init/0/body/5/argument/1/3/3/1/1": {
+          content: {
+            de: "OnchainWizard",
+            en: "OnchainWizard",
+            es: "OnchainWizard",
+            fr: "OnchainWizard",
+          },
+          hash: "a27078f824adbcc0bec4fed60463ce98",
+        },
       },
     },
     "../components/tambo/message.tsx": {
