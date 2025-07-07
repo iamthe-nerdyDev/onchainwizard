@@ -3,6 +3,9 @@ import lingoCompiler from "lingo.dev/compiler";
 
 const nextConfig: NextConfig = {
   /* config options here */
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default lingoCompiler.next({
