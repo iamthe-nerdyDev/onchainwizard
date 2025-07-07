@@ -49,19 +49,26 @@ function Table<T extends Record<string, any>>(props: TableProps<T>) {
   } = props;
 
   const parsedData = React.useMemo(() => {
-    console.log(data);
-    if (Array.isArray(data) && data.length > 0 && typeof data[0] === "string") {
-      try {
-        // Try to parse as JSON string array
-        const jsonString = data.join("");
-        return JSON.parse(jsonString);
-      } catch {
-        return [];
+    if (Array.isArray(data) && data.length > 0) {
+      const parsedObjects = [];
+
+      for (const item of data) {
+        if (typeof item !== "string") continue;
+        if (item === "") continue;
+
+        try {
+          const parsed = JSON.parse(item);
+          parsedObjects.push(parsed);
+        } catch {
+          continue;
+        }
       }
+
+      return parsedObjects;
     }
 
     return data;
-  }, [data, columns]);
+  }, [data]);
 
   const [sortState, setSortState] = React.useState<SortState<T>>({
     key: null,
