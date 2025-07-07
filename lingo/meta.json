@@ -277,6 +277,26 @@
         }
       }
     },
+    "../app/(main)/settings/page.tsx": {
+      "scopes": {
+        "1/0/init/body/0/argument": {
+          "type": "element",
+          "hash": "8df6777277469c1fd88cc18dde2f1cc3",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Settings"
+        },
+        "1/0/init/body/0/argument/1": {
+          "type": "element",
+          "hash": "8df6777277469c1fd88cc18dde2f1cc3",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Settings"
+        }
+      }
+    },
     "../app/chat/page.tsx": {
       "scopes": {
         "2/0/init/body/0/argument": {
@@ -1102,6 +1122,14 @@
         "5/0/init/body/7/argument/3/expression/right/5": {
           "type": "element",
           "hash": "ba4b7f66fc625d79f9385f00be18bd53",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Logout"
+        },
+        "6/0/init/body/4/argument/3/expression/right/5/3": {
+          "type": "element",
+          "hash": "07948fdf20705e04a7bf68ab197512bf",
           "context": "",
           "skip": false,
           "overrides": {},

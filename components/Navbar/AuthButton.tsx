@@ -2,7 +2,7 @@
 
 import React, { useState, useRef, useEffect } from "react";
 import { Button } from "../ui/button";
-import { SessionProvider, signOut, useSession } from "next-auth/react";
+import { SessionProvider, signOut } from "next-auth/react";
 import {
   IconMessage,
   IconAddressBook,
@@ -29,8 +29,7 @@ const menuItems = [
   },
 ];
 
-const Main = () => {
-  const session = useSession();
+const Main = ({ userId }: { userId: number }) => {
   const [open, setOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
@@ -65,8 +64,8 @@ const Main = () => {
         className="flex items-center focus:outline-none"
       >
         <img
-          src={`https://api.dicebear.com/9.x/shapes/svg?seed=${session.data?.user.id}`}
-          alt={session.data?.user.name || "user"}
+          src={`https://api.dicebear.com/9.x/shapes/svg?seed=${userId}`}
+          alt={"user"}
           width={35}
           height={35}
           className="rounded-full bg-gray-100"
@@ -102,10 +101,10 @@ const Main = () => {
   );
 };
 
-const AuthButton = () => {
+const AuthButton = ({ userId }: { userId: number }) => {
   return (
     <SessionProvider>
-      <Main />
+      <Main userId={userId} />
     </SessionProvider>
   );
 };

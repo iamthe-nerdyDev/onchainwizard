@@ -22,7 +22,7 @@ const NavBar = async () => {
             <CustomLocaleSwitcher />
             <span className="w-[1px] h-7 bg-gray-400" />
             {userId ? (
-              <AuthButton />
+              <AuthButton userId={userId} />
             ) : (
               <Button
                 asChild

@@ -50,6 +50,15 @@ export default {
           },
           hash: "d16302b85fa2f031ba0b10ae8fb3076f",
         },
+        "10/0/init/body/5/argument/1/3/expression/consequent/1/1": {
+          content: {
+            de: "Leg los mit dem Chatten!",
+            en: "Get chatty!",
+            es: "¡Comienza a chatear!",
+            fr: "Commencez à discuter !",
+          },
+          hash: "ecd18d5c4e85c5ff8f4d527615b211a1",
+        },
         "10/0/init/body/5/argument/1/3/expression/consequent/3/1": {
           content: {
             de: "Leg los mit dem Chatten!",
@@ -311,6 +320,19 @@ export default {
             },
             hash: "687c30c867e4de70e7ffe6a33cd3829a",
           },
+      },
+    },
+    "../app/(main)/settings/page.tsx": {
+      entries: {
+        "1/0/init/body/0/argument": {
+          content: {
+            de: "Einstellungen",
+            en: "Settings",
+            es: "Configuración",
+            fr: "Paramètres",
+          },
+          hash: "8df6777277469c1fd88cc18dde2f1cc3",
+        },
       },
     },
     "../app/chat/page.tsx": {
@@ -1243,6 +1265,15 @@ export default {
             fr: "Déconnexion",
           },
           hash: "ba4b7f66fc625d79f9385f00be18bd53",
+        },
+        "6/0/init/body/4/argument/3/expression/right/5/3": {
+          content: {
+            de: "Abmelden",
+            en: "Logout",
+            es: "Cerrar sesión",
+            fr: "Déconnexion",
+          },
+          hash: "07948fdf20705e04a7bf68ab197512bf",
         },
         "6/0/init/body/5/argument/3/expression/right/5/3": {
           content: {
