@@ -49,6 +49,7 @@ function Table<T extends Record<string, any>>(props: TableProps<T>) {
   } = props;
 
   const parsedData = React.useMemo(() => {
+    console.log(data);
     if (Array.isArray(data) && data.length > 0 && typeof data[0] === "string") {
       try {
         // Try to parse as JSON string array

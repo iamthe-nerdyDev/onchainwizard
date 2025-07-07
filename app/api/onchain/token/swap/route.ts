@@ -1,9 +1,9 @@
 import { BadRequestError, UnauthorizedError } from "@/lib/adapters/errors";
 import onchainwallet from "@/lib/adapters/onchainwallet";
 import prisma from "@/lib/adapters/prisma";
+import Wallet from "@/lib/adapters/wallet";
 import session from "@/lib/middleware/session";
 import processError from "@/lib/processError";
-import { Wallet } from "lucide-react";
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 
