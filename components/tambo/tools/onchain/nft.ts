@@ -92,6 +92,11 @@ export const mintNFTSchema = z
           .describe(
             "The image file type/format (e.g., 'image/png', 'image/jpeg', 'image/gif'). Used for proper rendering and display."
           ),
+        recipient: z
+          .string()
+          .describe(
+            "The blockchain wallet address of the recipient who will receive the NFT. Must be a valid address format for the Solana blockchain."
+          ),
         attributes: z
           .array(
             z.object({
@@ -116,15 +121,20 @@ export const mintNFTSchema = z
   .returns(
     z
       .object({
-        signature: z
+        txId: z
           .string()
           .describe(
-            "The blockchain transaction signature for the NFT minting transaction. Can be used to verify the transaction on a blockchain explorer."
+            "The unique blockchain transaction identifier (signature/hash) for the NFT minting transaction. This cryptographic signature serves as immutable proof of the minting operation and can be used to verify transaction details, status, and authenticity on blockchain explorers. The format varies by blockchain (e.g., base58 for Solana, hex for Ethereum)."
           ),
-        result: z
-          .any()
+        nftAddress: z
+          .string()
           .describe(
-            "Additional result data from the minting process, which may include mint address, token account details, or other blockchain-specific information."
+            "The unique on-chain address (public key) of the newly minted NFT token. This address permanently identifies the NFT on the blockchain and is used for all future operations including transfers, metadata queries, and ownership verification. Also known as the mint address or token mint in some blockchain contexts."
+          ),
+        nftAccountAddress: z
+          .string()
+          .describe(
+            "The recipient's associated token account address that holds ownership of the NFT. This is distinct from the recipient's wallet address and represents the specific account created to store this particular NFT token. On Solana, this is the Associated Token Account (ATA); on Ethereum, this may be the contract interaction address or token holder reference."
           ),
       })
       .describe(
@@ -141,6 +151,7 @@ export const mintNFT = async (payload: {
   imageUri: string;
   description: string;
   imgType: string;
+  recipient: string;
   attributes: { value: string; trait_type: string }[];
 }) => {
   const { error, message, data } = await client.post(
@@ -149,7 +160,11 @@ export const mintNFT = async (payload: {
   );
 
   if (error) throw new Error(message);
-  return data as { signature: string; result: any };
+  return data.txId as {
+    txId: string;
+    nftAddress: string;
+    nftAccountAddress: string;
+  };
 };
 
 export const sendNFTSchema = z

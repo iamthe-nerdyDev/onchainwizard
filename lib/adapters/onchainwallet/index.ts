@@ -18,20 +18,9 @@ import {
   createTransferInstruction,
   getOrCreateAssociatedTokenAccount,
 } from "@solana/spl-token";
-import {
-  createNft,
-  mplTokenMetadata,
-} from "@metaplex-foundation/mpl-token-metadata";
-import { createUmi } from "@metaplex-foundation/umi-bundle-defaults";
-import {
-  createSignerFromKeypair,
-  generateSigner,
-  keypairIdentity,
-  percentAmount,
-} from "@metaplex-foundation/umi";
-import { nftStorageUploader } from "@metaplex-foundation/umi-uploader-nft-storage";
 
 const RPC_URL = process.env.RPC_URL!;
+const BASE_URL = process.env.NEXTAUTH_URL!;
 const connection = new Connection(RPC_URL);
 
 export class OnchainWallet {
@@ -179,15 +168,6 @@ export class OnchainWallet {
   }
 
   async mintNft(params: MintNFTParams & { pk: string }) {
-    const umi = createUmi(RPC_URL);
-    const creatorWallet = umi.eddsa.createKeypairFromSecretKey(
-      bs58.decode(params.pk)
-    );
-    const creator = createSignerFromKeypair(umi, creatorWallet);
-    umi.use(keypairIdentity(creator));
-    umi.use(mplTokenMetadata());
-    umi.use(nftStorageUploader({ token: process.env.NFTSTORAGE_API_KEY! }));
-
     const metadata = {
       name: params.name,
       description: params.description,
@@ -203,16 +183,34 @@ export class OnchainWallet {
       },
     };
 
-    const metadataUri = await umi.uploader.uploadJson(metadata);
-    const mint = generateSigner(umi);
-    return await createNft(umi, {
-      mint,
-      name: params.name,
-      symbol: params.symbol,
-      uri: metadataUri,
-      sellerFeeBasisPoints: percentAmount(0),
-      creators: [{ address: creator.publicKey, verified: true, share: 100 }],
-    }).sendAndConfirm(umi);
+    const { uuid } = await prisma.nft.create({ data: metadata });
+    const uri = `${BASE_URL}/api/nft/${uuid}`;
+
+    const { data } = await axios.post(
+      "https://api.tatum.io/v3/nft/mint",
+      {
+        chain: "SOL",
+        metadata: {
+          name: params.name,
+          symbol: params.symbol,
+          sellerFeeBasisPoints: 0,
+          uri,
+          mutable: true,
+        },
+        to: params.recipient,
+      },
+      {
+        headers: {
+          "x-api-key": process.env.TATUM_API_KEY,
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+      }
+    );
+
+    return data as {
+      txId: { txId: string; nftAddress: string; nftAccountAddress: string };
+    };
   }
 
   async generateImage(prompt: string) {

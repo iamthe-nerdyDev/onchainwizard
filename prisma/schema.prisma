@@ -79,6 +79,16 @@ model Job {
   @@map("jobs")
 }
 
+model Nft {
+  id           Int          @id @default(autoincrement())
+  uuid         String       @unique @default(uuid()) @db.VarChar(255)
+  data         Json?
+  createdAt    DateTime     @default(now())
+  updatedAt    DateTime     @updatedAt
+
+  @@map("nfts")
+}
+
 enum TokenType {
   NATIVE
   SPL

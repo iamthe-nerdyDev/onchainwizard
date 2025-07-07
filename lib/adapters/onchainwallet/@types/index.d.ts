@@ -14,6 +14,7 @@ type MintNFTParams = {
   symbol: string;
   imageUri: string;
   description: string;
+  recipient: string;
   imgType: string;
   attributes: { trait_type: string; value: string }[];
 };

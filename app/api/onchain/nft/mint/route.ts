@@ -13,13 +13,22 @@ export async function POST(req: NextRequest) {
     if (!userId) throw UnauthorizedError();
 
     const body = await req.json();
-    const { name, symbol, imageUri, description, imgType, attributes } = z
+    const {
+      name,
+      symbol,
+      imageUri,
+      description,
+      imgType,
+      recipient,
+      attributes,
+    } = z
       .object({
         name: z.string(),
         symbol: z.string(),
         imageUri: z.string().url(),
         description: z.string(),
         imgType: z.string(),
+        recipient: z.string(),
         attributes: z.array(
           z.object({ trait_type: z.string(), value: z.string() })
         ),
@@ -37,6 +46,7 @@ export async function POST(req: NextRequest) {
       description,
       imgType,
       attributes,
+      recipient,
     });
 
     return NextResponse.json({
