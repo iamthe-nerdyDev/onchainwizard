@@ -119,9 +119,10 @@ const Checklist = () => {
         ) : (
           <div>
             <Accordion
-              type="multiple"
+              type="single"
+              collapsible
               className="w-full"
-              value={items.map((_, idx) => `item-${idx + 1}`)}
+              defaultValue="item-1"
             >
               {items.map((item, idx) => (
                 <AccordionItem key={item.field} value={`item-${idx + 1}`}>

@@ -7,7 +7,7 @@ const Chat = async () => {
   const userId = await session();
 
   return (
-    <CustomTamboProvider>
+    <CustomTamboProvider userId={userId!}>
       <MessageThreadFull
         userId={userId!}
         contextKey="tambo-template"
